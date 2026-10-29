@@ -1,0 +1,30 @@
+{
+    "original_dataset": "C:\\Users\\user\\OneDrive\\Desktop\\major_project\\data\\unified",
+    "cleaned_dataset": "C:\\Users\\user\\OneDrive\\Desktop\\major_project\\data\\unified_clean",
+    "original_image_count": 12702,
+    "cleaned_image_count": 12601,
+    "removed_image_count": 101,
+    "cross_class_duplicate_groups_removed": 38,
+    "same_class_duplicate_groups_found": 22,
+    "same_class_duplicate_copies_removed": 22,
+    "class_counts": {
+        "Apple_Healthy": 41,
+        "Apple_Rust": 131,
+        "Apple_Scab": 122,
+        "Corn_Gray_Leaf_Spot": 122,
+        "Corn_Leaf_Blight": 83,
+        "Corn_Leaf_Rust": 88,
+        "Potato_Early_Blight": 1000,
+        "Potato_Healthy": 152,
+        "Potato_Late_Blight": 1000,
+        "Potato_Leafroll_Virus": 49,
+        "Potato_Leaf_Blight": 60,
+        "Tomato_Bacterial_Spot": 2194,
+        "Tomato_Early_Blight": 1079,
+        "Tomato_Healthy": 1643,
+        "Tomato_Late_Blight": 1964,
+        "Tomato_Leaf_Mold": 1026,
+        "Tomato_Septoria_Leaf_Spot": 1847
+    },
+    "raw_datasets_modified": false
+}

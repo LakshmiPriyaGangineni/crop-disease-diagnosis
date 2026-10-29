@@ -1,0 +1,45 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset images and generated dataset copies
+datasets/
+data/
+*.zip
+
+# Trained model weights
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+
+# Generated retrieval indexes
+rag/faiss_index.bin
+rag/faiss_metadata.pkl
+
+# Test caches and temporary files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+.idea/

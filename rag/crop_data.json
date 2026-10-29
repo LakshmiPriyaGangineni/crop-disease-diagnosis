@@ -1,0 +1,191 @@
+{
+    "diseases": [
+        {
+            "crop": "Apple",
+            "disease": "Apple Healthy",
+            "symptoms": [
+                "Leaves appear green and healthy",
+                "No visible lesions or abnormal discoloration",
+                "Normal leaf growth"
+            ],
+            "treatment": "No disease treatment is required.",
+            "prevention": "Maintain proper irrigation, nutrition, sanitation and regular monitoring."
+        },
+        {
+            "crop": "Apple",
+            "disease": "Apple Rust",
+            "symptoms": [
+                "Yellow or orange spots on leaves",
+                "Rust-colored lesions may develop",
+                "Premature leaf damage may occur"
+            ],
+            "treatment": "Remove severely affected plant material and use an appropriate fungicide according to local agricultural recommendations and product instructions.",
+            "prevention": "Maintain orchard sanitation, remove infected plant debris and monitor plants regularly."
+        },
+        {
+            "crop": "Apple",
+            "disease": "Apple Scab",
+            "symptoms": [
+                "Olive-green to dark lesions on leaves",
+                "Lesions may become darker as they develop",
+                "Affected leaves may become distorted or fall prematurely"
+            ],
+            "treatment": "Remove infected debris and use an appropriate fungicide according to local agricultural recommendations.",
+            "prevention": "Maintain orchard sanitation, remove fallen infected leaves and improve air circulation."
+        },
+        {
+            "crop": "Corn",
+            "disease": "Corn Gray Leaf Spot",
+            "symptoms": [
+                "Gray or tan rectangular lesions on leaves",
+                "Lesions may enlarge along leaf veins",
+                "Severe infection can reduce healthy leaf area"
+            ],
+            "treatment": "Remove or manage infected crop residues and use recommended fungicide management when appropriate.",
+            "prevention": "Use resistant varieties where available, maintain crop rotation and manage crop residues."
+        },
+        {
+            "crop": "Corn",
+            "disease": "Corn Leaf Blight",
+            "symptoms": [
+                "Elongated brown or tan lesions on leaves",
+                "Lesions can expand across the leaf surface",
+                "Severe infection may cause premature leaf drying"
+            ],
+            "treatment": "Use appropriate disease-management practices and fungicides where recommended for the crop and region.",
+            "prevention": "Use resistant varieties, crop rotation, field sanitation and regular monitoring."
+        },
+        {
+            "crop": "Corn",
+            "disease": "Corn Leaf Rust",
+            "symptoms": [
+                "Small reddish-brown or rust-colored pustules",
+                "Pustules may occur on both sides of leaves",
+                "Severe infection can reduce photosynthetic leaf area"
+            ],
+            "treatment": "Use resistant varieties and apply appropriate fungicide management when recommended.",
+            "prevention": "Monitor fields regularly, maintain crop health and use resistant varieties where available."
+        },
+        {
+            "crop": "Potato",
+            "disease": "Potato Early Blight",
+            "symptoms": [
+                "Dark brown circular or irregular leaf lesions",
+                "Concentric rings may appear inside lesions",
+                "Older leaves are commonly affected first"
+            ],
+            "treatment": "Remove heavily infected plant material where practical and use appropriate fungicide management according to local recommendations.",
+            "prevention": "Maintain field sanitation, avoid prolonged leaf wetness and practice crop rotation."
+        },
+        {
+            "crop": "Potato",
+            "disease": "Potato Healthy",
+            "symptoms": [
+                "Leaves appear green and normally developed",
+                "No obvious disease lesions",
+                "Normal plant growth"
+            ],
+            "treatment": "No disease treatment is required.",
+            "prevention": "Maintain balanced nutrition, appropriate irrigation, sanitation and regular crop monitoring."
+        },
+        {
+            "crop": "Potato",
+            "disease": "Potato Late Blight",
+            "symptoms": [
+                "Dark water-soaked lesions on leaves",
+                "Brown to black areas may expand rapidly",
+                "White fungal growth may appear under humid conditions"
+            ],
+            "treatment": "Remove severely infected material where practical and use appropriate late-blight management products according to local agricultural recommendations.",
+            "prevention": "Use healthy planting material, maintain good field sanitation and monitor weather and crop conditions."
+        },
+        {
+            "crop": "Potato",
+            "disease": "Potato Leaf Blight",
+            "symptoms": [
+                "Leaf discoloration and necrotic areas",
+                "Brown or dark lesions may develop",
+                "Severe infection can reduce healthy foliage"
+            ],
+            "treatment": "Use appropriate disease-management practices and fungicide treatment when recommended for the identified disease.",
+            "prevention": "Maintain field sanitation, crop rotation and regular monitoring."
+        },
+        {
+            "crop": "Potato",
+            "disease": "Potato Leafroll Virus",
+            "symptoms": [
+                "Leaves may curl upward along their margins",
+                "Affected leaves may become firm or leathery",
+                "Plant growth may be reduced"
+            ],
+            "treatment": "There is no direct cure for a virus-infected plant. Remove severely infected plants where appropriate and manage disease vectors according to local recommendations.",
+            "prevention": "Use certified disease-free seed potatoes and control aphid vectors through recommended integrated pest-management practices."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Bacterial Spot",
+            "symptoms": [
+                "Small dark spots on leaves",
+                "Spots may develop yellow halos",
+                "Fruit may develop small raised or dark lesions"
+            ],
+            "treatment": "Remove severely affected plant material where practical and follow locally recommended bacterial disease-management practices.",
+            "prevention": "Use clean planting material, avoid unnecessary leaf wetness and maintain field sanitation."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Early Blight",
+            "symptoms": [
+                "Brown circular lesions on leaves",
+                "Concentric ring patterns may develop",
+                "Older leaves are often affected first"
+            ],
+            "treatment": "Remove affected plant debris and use an appropriate fungicide according to local recommendations and product instructions.",
+            "prevention": "Maintain good field sanitation, crop rotation and avoid prolonged leaf wetness."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Healthy",
+            "symptoms": [
+                "Leaves are generally green and healthy",
+                "No significant disease lesions are visible",
+                "Normal plant development"
+            ],
+            "treatment": "No disease treatment is required.",
+            "prevention": "Maintain proper irrigation, nutrition, sanitation and regular crop monitoring."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Late Blight",
+            "symptoms": [
+                "Large dark or water-soaked leaf lesions",
+                "Lesions can expand quickly",
+                "Severe infection can cause rapid leaf deterioration"
+            ],
+            "treatment": "Remove severely infected material where practical and use locally recommended late-blight management practices.",
+            "prevention": "Use healthy planting material, maintain sanitation and monitor crop conditions regularly."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Leaf Mold",
+            "symptoms": [
+                "Yellowish patches may appear on upper leaf surfaces",
+                "Olive-green to brown fungal growth may appear on lower leaf surfaces",
+                "Leaves may eventually dry and fall"
+            ],
+            "treatment": "Remove affected leaves where practical and improve growing conditions; use an appropriate fungicide when locally recommended.",
+            "prevention": "Improve air circulation, reduce excessive humidity and avoid prolonged leaf wetness."
+        },
+        {
+            "crop": "Tomato",
+            "disease": "Tomato Septoria Leaf Spot",
+            "symptoms": [
+                "Small circular spots with gray centers",
+                "Dark margins may surround lesions",
+                "Numerous spots can cause premature leaf drop"
+            ],
+            "treatment": "Remove infected leaves and plant debris where practical and use appropriate fungicide management according to local recommendations.",
+            "prevention": "Maintain field sanitation, avoid overhead watering and reduce prolonged leaf wetness."
+        }
+    ]
+}

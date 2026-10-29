@@ -1,0 +1,758 @@
+{
+    "description": "Confirmed exact duplicate images between Dataset 1 and Dataset 2",
+    "dataset_1": "dataset_1_plantvillage",
+    "dataset_2": "dataset_2_crops_disease",
+    "duplicate_count": 150,
+    "duplicates": [
+        {
+            "sha256": "0137c7d12fc97e2aa32a55a460a916d66275870ea17cd4672574f7911bd64f52",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\fd81a3e2-1d3e-4e52-a010-ad1b36a5220d___RS_LB 4067.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\fd81a3e2-1d3e-4e52-a010-ad1b36a5220d___RS_LB 4067.JPG"
+        },
+        {
+            "sha256": "01cec8f422a8495451a644577418aede08577ac624e7603e4014099fea5c5c2f",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\b328c22c-c9c6-41fd-9bac-daf2f26143b1___RS_Early.B 6854.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\b328c22c-c9c6-41fd-9bac-daf2f26143b1___RS_Early.B 6854.JPG"
+        },
+        {
+            "sha256": "02744fea6d0dd775566bff45de149e1a09b6793da9c3fd0e0a680e35fe9360ff",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\1a38f06b-da2a-4c57-bef1-a73254896403___RS_Early.B 9178.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\1a38f06b-da2a-4c57-bef1-a73254896403___RS_Early.B 9178.JPG"
+        },
+        {
+            "sha256": "037233a0a7b167d8012f085cd7eb8e1e8aca3d04fbf36042e43e4a85fafae504",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\a38df468-bb4a-4bb3-9ee9-a2dffae718e9___RS_Early.B 8690.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\a38df468-bb4a-4bb3-9ee9-a2dffae718e9___RS_Early.B 8690.JPG"
+        },
+        {
+            "sha256": "07bb6d02abf2c95c8f49dd07f1b2607bfc4a5f6aa8231a507595cf68c0741e2c",
+            "dataset_1": "PlantVillage\\Potato___healthy\\144d2475-21ab-4bdc-a67c-9672a9b711e6___RS_HL 5376.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\144d2475-21ab-4bdc-a67c-9672a9b711e6___RS_HL 5376.JPG"
+        },
+        {
+            "sha256": "07eb002117a17583d227b1b192be288b04a0d6a39820f58e705ab39b73d5c875",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\ed78ac4f-ce50-4de8-b508-ad07b9d99176___RS_Early.B 7313.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\ed78ac4f-ce50-4de8-b508-ad07b9d99176___RS_Early.B 7313.JPG"
+        },
+        {
+            "sha256": "09552fb07ba7793552c6824823fcebe9b12edc89ad951a66d08c3412ec87ac90",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\5576794b-902c-4df2-ae8d-da30faa37d5d___RS_LB 4443.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\5576794b-902c-4df2-ae8d-da30faa37d5d___RS_LB 4443.JPG"
+        },
+        {
+            "sha256": "0aeee253754adbfd12ee784b5ccb7a107e1ab16505c8221daf9df3977b973e53",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\544b5324-f697-4af8-90d4-47b7b86691c6___RS_Early.B 7028.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\544b5324-f697-4af8-90d4-47b7b86691c6___RS_Early.B 7028.JPG"
+        },
+        {
+            "sha256": "0d5fb5753d68b92e65b75413f072d8ea0c05a4f771ecb21ffaaa51bdf17b76af",
+            "dataset_1": "PlantVillage\\Potato___healthy\\882798ca-67c3-45a3-86cf-4aed69388145___RS_HL 1750.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\882798ca-67c3-45a3-86cf-4aed69388145___RS_HL 1750.JPG"
+        },
+        {
+            "sha256": "0e9889184d44166e0470b01a0fd0f844b2e2c9349a636de10d1cbfdecfe5aa77",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\9996efa6-219d-4f07-aa12-dc8ca40609b9___RS_LB 2840.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\9996efa6-219d-4f07-aa12-dc8ca40609b9___RS_LB 2840.JPG"
+        },
+        {
+            "sha256": "10355feb52666b9f46a1ac2c39ba0c9859114e57bb5ffa98105ac3441a516a26",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\0fd22207-cb37-42a1-965f-7dfe43f9d579___RS_Early.B 6876.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\0fd22207-cb37-42a1-965f-7dfe43f9d579___RS_Early.B 6876.JPG"
+        },
+        {
+            "sha256": "131304598b5f8399f69331d118bef20dba994593672c6be0aea7896b2e39f203",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\13cfb9dc-8951-44c0-8c16-e96fd6ccc659___RS_Early.B 7070.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\13cfb9dc-8951-44c0-8c16-e96fd6ccc659___RS_Early.B 7070.JPG"
+        },
+        {
+            "sha256": "135f903a36fb0cd3b016f46f6e994a76a2d4aa00735086dd0a33bed06c9673ab",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\1c207156-339d-4ec9-9153-9edb3bc95b5f___RS_LB 4833.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\1c207156-339d-4ec9-9153-9edb3bc95b5f___RS_LB 4833.JPG"
+        },
+        {
+            "sha256": "139de15092b2132a52c1e8fd8180251fee58a7b2dbcab16dea8de63c9de3afec",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\c3bf3f15-b1ae-4e36-97a4-f341879db6ae___RS_Early.B 8263.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\c3bf3f15-b1ae-4e36-97a4-f341879db6ae___RS_Early.B 8263.JPG"
+        },
+        {
+            "sha256": "14f757290fb34fb5171047f322a9c15ac53775ffb51bc0cacec1ba2acfc675e6",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\c2cc82b8-9f74-4e40-9792-c121a89a84c0___RS_Early.B 8524.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\c2cc82b8-9f74-4e40-9792-c121a89a84c0___RS_Early.B 8524.JPG"
+        },
+        {
+            "sha256": "16fa76dc7bba97b50afaeb9be75863e12d2e2228904e310c47ca7fa96b72cd60",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\e5c94100-3e1c-4fb1-8b6b-f281b491adff___RS_Early.B 8604.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\e5c94100-3e1c-4fb1-8b6b-f281b491adff___RS_Early.B 8604.JPG"
+        },
+        {
+            "sha256": "18283ac05feb42c27b487cdaae30882dd3a84c3c0ec24c08d821dbcc4c9d79c4",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\848336c4-eaad-47e7-8458-5e80d5520d05___RS_Early.B 7729.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\848336c4-eaad-47e7-8458-5e80d5520d05___RS_Early.B 7729.JPG"
+        },
+        {
+            "sha256": "19b06033c2e6ae81bc8012fae7541ae380f492d0758168992c15628540b15026",
+            "dataset_1": "PlantVillage\\Potato___healthy\\de9a8669-d437-40f0-aa56-fe2d8276a1e0___RS_HL 1910.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\de9a8669-d437-40f0-aa56-fe2d8276a1e0___RS_HL 1910.JPG"
+        },
+        {
+            "sha256": "1c0fd46087200489a6c51df72d963e9855b4e6d7c0f29dbedb572ee06ab0720b",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\6ecc23ac-9aed-47bb-8ee5-76574de85872___RS_LB 5010.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\6ecc23ac-9aed-47bb-8ee5-76574de85872___RS_LB 5010.JPG"
+        },
+        {
+            "sha256": "1f43a561772272a512fbff0ae8fe7fe23a96f7a59d3150063d4a83ab618f8d8f",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\2356a4d6-8015-434e-a5f8-03197fef2c28___RS_Early.B 8139.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\2356a4d6-8015-434e-a5f8-03197fef2c28___RS_Early.B 8139.JPG"
+        },
+        {
+            "sha256": "1f5583bfe171c8cf0960a375b563ca7fdcf07f854ae220d72ce2751d1fdc7c18",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\1c42eae7-29c8-42fd-b05a-9b8255790f6f___RS_Early.B 7719.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\1c42eae7-29c8-42fd-b05a-9b8255790f6f___RS_Early.B 7719.JPG"
+        },
+        {
+            "sha256": "21cf84afd289fe4bccf35a8f5b66e575648e97caf0c931d647b21978680e80a6",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\e575421c-a9d4-4c0e-8027-b12fca1e3ac9___RS_LB 2806.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\e575421c-a9d4-4c0e-8027-b12fca1e3ac9___RS_LB 2806.JPG"
+        },
+        {
+            "sha256": "22a4b976ad6f7fc439abdbfa6ec4e0e4e5a713ddd1adb14dead55b2e4c0ae5fe",
+            "dataset_1": "PlantVillage\\Potato___healthy\\1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\1a1184f8-c414-4ead-a4c4-41ae78e29a82___RS_HL 1971.JPG"
+        },
+        {
+            "sha256": "249bc8066b6ce1610a4f1558c30c9963a70d49fd68288d73872bedf1a820eafe",
+            "dataset_1": "PlantVillage\\Potato___healthy\\46b2555a-c0a6-48c2-af13-0816e147e4de___RS_HL 1943.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\46b2555a-c0a6-48c2-af13-0816e147e4de___RS_HL 1943.JPG"
+        },
+        {
+            "sha256": "25e6b1adc6d1ec216dcd37097cc74fc2e2fc5845485e614254d83484b5d159b6",
+            "dataset_1": "PlantVillage\\Potato___healthy\\8b2ce6b6-f00a-4f25-ac6d-4249dd7dc5f6___RS_HL 1890.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\8b2ce6b6-f00a-4f25-ac6d-4249dd7dc5f6___RS_HL 1890.JPG"
+        },
+        {
+            "sha256": "2840e7b744c3bc757ba52d3d04650ed0d57d31f6c9d869fea49c78fc2c3c680d",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\fabf3179-8fba-4551-93fe-28e7f6c0efc3___RS_LB 3269.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\fabf3179-8fba-4551-93fe-28e7f6c0efc3___RS_LB 3269.JPG"
+        },
+        {
+            "sha256": "2845af013a1257d3965ebc596f21ecf9373c20eba4c421e56442461a5a4b3a52",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\a4ac4e39-1342-4b1d-806a-98789876a701___RS_Early.B 8953.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\a4ac4e39-1342-4b1d-806a-98789876a701___RS_Early.B 8953.JPG"
+        },
+        {
+            "sha256": "2ca9ae209872fbfd3df07fdf47a77b5ea6b37c59040241a13e108e119179daf4",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\468629f7-6ca2-4823-9a39-d42b4d92c4bb___RS_LB 5312.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\468629f7-6ca2-4823-9a39-d42b4d92c4bb___RS_LB 5312.JPG"
+        },
+        {
+            "sha256": "2cc6c837327975acc2875fed1b4645aa0e6a0e05f0c54f83d54d63b1a0708f89",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\f217f3ba-56fa-4f97-bf9a-07697e08e845___RS_Early.B 9161.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\f217f3ba-56fa-4f97-bf9a-07697e08e845___RS_Early.B 9161.JPG"
+        },
+        {
+            "sha256": "30e8e8ea3d549ab920722c0ce71cf1b9ef0c2261f0af13f7d57aa042fd7a3e00",
+            "dataset_1": "PlantVillage\\Potato___healthy\\6f4b9acd-f34d-4771-a6bc-2001de2dd1d3___RS_HL 1898.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\6f4b9acd-f34d-4771-a6bc-2001de2dd1d3___RS_HL 1898.JPG"
+        },
+        {
+            "sha256": "32dc78eea093036a2fc2d78876dd413071bc05d3e07f896e1f46effa3aa5e78e",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\d9817cc3-ef03-41e5-8892-1fddd27b7bcc___RS_LB 4878.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\d9817cc3-ef03-41e5-8892-1fddd27b7bcc___RS_LB 4878.JPG"
+        },
+        {
+            "sha256": "346b0ec1a2af4b97e904cdf41db270de80af4c50ea60d45fe533fdb6f87c7671",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\b549ab3b-06f1-45ef-bf34-86071552d870___RS_Early.B 8576.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\b549ab3b-06f1-45ef-bf34-86071552d870___RS_Early.B 8576.JPG"
+        },
+        {
+            "sha256": "34d6fcf90528773688aeaa9e50dee4946bcb399520606a65f1791fc0846ec37f",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\f917c191-cca4-4a78-8238-a40b586f9058___RS_Early.B 7945.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\f917c191-cca4-4a78-8238-a40b586f9058___RS_Early.B 7945.JPG"
+        },
+        {
+            "sha256": "34e7acb77839f89c8c284e3299dd7de5a08b0bf959a3b80e780212ca0d33edc3",
+            "dataset_1": "PlantVillage\\Potato___healthy\\1dcfeaa9-006d-470c-b3e5-d67609d07d4e___RS_HL 1808.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\1dcfeaa9-006d-470c-b3e5-d67609d07d4e___RS_HL 1808.JPG"
+        },
+        {
+            "sha256": "355b5b20d2adc2018b2484389c2997ef93e074ae13061a8709fef209bbec9d61",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b925ad3e-fc49-497d-a6eb-115f0de20800___RS_HL 4170.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b925ad3e-fc49-497d-a6eb-115f0de20800___RS_HL 4170.JPG"
+        },
+        {
+            "sha256": "372d1eec9cab0bef9f548c69ed4dfc9c95f07f6122441bc98223720c2a2e4c34",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b4031970-60ea-4739-9fed-6c81be1bad1c___RS_HL 1752.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b4031970-60ea-4739-9fed-6c81be1bad1c___RS_HL 1752.JPG"
+        },
+        {
+            "sha256": "390b32c46e23bc1f95afdb72313f5ead8d6c22edece365628b0c2e74a3b45087",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\90596f7b-1efa-4595-8d57-bcbd4c48253f___RS_LB 4753.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\90596f7b-1efa-4595-8d57-bcbd4c48253f___RS_LB 4753.JPG"
+        },
+        {
+            "sha256": "393b556bfdbca0629e8ef9db922eeea6f322ac7deb8bd8e80ba6503feee6e91f",
+            "dataset_1": "PlantVillage\\Potato___healthy\\2dee1571-ef6b-40ef-8c46-334e89aad3f1___RS_HL 1950.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\2dee1571-ef6b-40ef-8c46-334e89aad3f1___RS_HL 1950.JPG"
+        },
+        {
+            "sha256": "3a3849d90065b18371843ce005086215ca2dcc82187fd5356881c946a44af7f8",
+            "dataset_1": "PlantVillage\\Potato___healthy\\d1752ed4-a0a7-4075-917d-205c0e785dcf___RS_HL 1911.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\d1752ed4-a0a7-4075-917d-205c0e785dcf___RS_HL 1911.JPG"
+        },
+        {
+            "sha256": "3acda86d9b766044d26211061721db0e57c849524d8e0030389199be33c1a417",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\2572d994-464a-461e-a0c8-597dc2229c09___RS_LB 2763.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\2572d994-464a-461e-a0c8-597dc2229c09___RS_LB 2763.JPG"
+        },
+        {
+            "sha256": "3ae60f7d82062b35c8fe50d3dae1096cb8d78d6b6b61a4a05d5e79d11b5f3cb1",
+            "dataset_1": "PlantVillage\\Potato___healthy\\60e9a878-13e0-4345-964c-fd807cd20bbb___RS_HL 1876.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\60e9a878-13e0-4345-964c-fd807cd20bbb___RS_HL 1876.JPG"
+        },
+        {
+            "sha256": "3ccd13d16aafa862722696f05ff26306118fe77d3f4c9665e11b85432809f0ff",
+            "dataset_1": "PlantVillage\\Potato___healthy\\5d505af8-3f73-4781-980c-a4a696a04550___RS_HL 1934.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\5d505af8-3f73-4781-980c-a4a696a04550___RS_HL 1934.JPG"
+        },
+        {
+            "sha256": "3e120ed724efb8dadd0f2198cf2aa11a4a5126346aacd998da346076a8cfb069",
+            "dataset_1": "PlantVillage\\Potato___healthy\\57e24d88-fd01-4422-b8b5-d688d2296184___RS_HL 5401.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\57e24d88-fd01-4422-b8b5-d688d2296184___RS_HL 5401.JPG"
+        },
+        {
+            "sha256": "3e126c7f5643d7ed172334a97813e4fb2be4991242a3f6f47ff32bfcd02c4030",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\61f4f7c5-cebe-471a-9be9-b595255b7fb4___RS_Early.B 7029.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\61f4f7c5-cebe-471a-9be9-b595255b7fb4___RS_Early.B 7029.JPG"
+        },
+        {
+            "sha256": "3fa8d2afb70523889b944d141e1ecef0bcc85aa3ab6778551d2ebd348a4fa589",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\e6d7f5aa-d176-4e43-9e0c-afc2901442f6___RS_LB 3066.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\e6d7f5aa-d176-4e43-9e0c-afc2901442f6___RS_LB 3066.JPG"
+        },
+        {
+            "sha256": "4347b8fce408183110e0e8a8fdba163fe7fa9ebf0e3b86372fec612cb8f6c002",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\5755142f-0cba-45b7-a563-beb1bf6db374___RS_Early.B 8321.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\5755142f-0cba-45b7-a563-beb1bf6db374___RS_Early.B 8321.JPG"
+        },
+        {
+            "sha256": "4902bbaeee135373f0747621d46cf5249bd8ab29c663f77b73eb5fd162efe432",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\f0b444a4-ddd7-4286-8a80-423f7e71c526___RS_Early.B 8753.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\f0b444a4-ddd7-4286-8a80-423f7e71c526___RS_Early.B 8753.JPG"
+        },
+        {
+            "sha256": "4c25df6d57357d3a6336412afa62ad4b033eeebfbbe3392ff20492f1d25a72ff",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\9cba8b9a-68a7-483a-bc77-6bacbbe7fc46___RS_Early.B 7588.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\9cba8b9a-68a7-483a-bc77-6bacbbe7fc46___RS_Early.B 7588.JPG"
+        },
+        {
+            "sha256": "4cc33efa7436eb88e3d4a6eff244512d9e0b5fd31722bc30d50cf749689ad442",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\a6623827-bcdc-40ed-81e6-5cde1a1da997___RS_LB 3179.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\a6623827-bcdc-40ed-81e6-5cde1a1da997___RS_LB 3179.JPG"
+        },
+        {
+            "sha256": "4d34ce5b8506af0777ddba2bfc189ba0c18e28d26f1b5140ceec72538f991b61",
+            "dataset_1": "PlantVillage\\Potato___healthy\\f4be3632-42a1-415a-9f7e-1d5ecb9f49d7___RS_HL 1783.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\f4be3632-42a1-415a-9f7e-1d5ecb9f49d7___RS_HL 1783.JPG"
+        },
+        {
+            "sha256": "4e763dbfa5c183fa2aae930ddbcedb86273238ed806d141b5b8ee13a189ee907",
+            "dataset_1": "PlantVillage\\Potato___healthy\\3c0d6888-c7e1-4cf8-9c25-9a0b8c62ba72___RS_HL 1780.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\3c0d6888-c7e1-4cf8-9c25-9a0b8c62ba72___RS_HL 1780.JPG"
+        },
+        {
+            "sha256": "5112d995ffc7dfca8de22b9c08025f460daa017bda5a2ef465e06d4d479f6849",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\86944800-4984-44f9-9c72-53fcb7324a3b___RS_LB 4015.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\86944800-4984-44f9-9c72-53fcb7324a3b___RS_LB 4015.JPG"
+        },
+        {
+            "sha256": "51e904d43d5a346fdfbf6a9b362942fd0cb069ef42fd400611d92e427cada84f",
+            "dataset_1": "PlantVillage\\Potato___healthy\\1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\1ae826e2-5148-47bd-a44c-711ec9cc9c75___RS_HL 1954.JPG"
+        },
+        {
+            "sha256": "535d4ece0e4ce1617993cf9aa7e1b1376be03ed102abef0f720da357d1ed9a54",
+            "dataset_1": "PlantVillage\\Potato___healthy\\c9ad5c9a-c9b0-4e07-9e03-9e9edfd58a19___RS_HL 1755.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\c9ad5c9a-c9b0-4e07-9e03-9e9edfd58a19___RS_HL 1755.JPG"
+        },
+        {
+            "sha256": "54aad0a15c17ee2fa54775aac16f85aad8644d36897c40693bf6cf1f9fc56098",
+            "dataset_1": "PlantVillage\\Potato___healthy\\31a09d39-6791-4ecb-8f44-af2ed85dbd33___RS_HL 1970.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\31a09d39-6791-4ecb-8f44-af2ed85dbd33___RS_HL 1970.JPG"
+        },
+        {
+            "sha256": "55a6ab78004a0debd565d449937cf795c4f28c43aa4ddeea3b2f77f3740b4469",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\de0ae213-3479-4f07-b7f8-d59607a2caa8___RS_LB 2528.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\de0ae213-3479-4f07-b7f8-d59607a2caa8___RS_LB 2528.JPG"
+        },
+        {
+            "sha256": "56b2abbcaa57b3b03a423436d9d3f09c9f85a6334aad11029b9d9a0b1ceb4f65",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\ebd47dca-590b-43c4-812d-32f95b776690___RS_LB 3834.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\ebd47dca-590b-43c4-812d-32f95b776690___RS_LB 3834.JPG"
+        },
+        {
+            "sha256": "575c718e63258925349f6e8e42c6578cd74326e1d2171c3acd0a8448b91cb668",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\489107b2-13f2-401b-b931-39ca7fd4be2b___RS_LB 2665.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\489107b2-13f2-401b-b931-39ca7fd4be2b___RS_LB 2665.JPG"
+        },
+        {
+            "sha256": "57a2252913eb374e4a49b8e5e14f6de7f9f71f8839cbf1ce2062f4f4387b39ef",
+            "dataset_1": "PlantVillage\\Potato___healthy\\2e0b8b4b-e900-408b-b760-730690bbd382___RS_HL 1901.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\2e0b8b4b-e900-408b-b760-730690bbd382___RS_HL 1901.JPG"
+        },
+        {
+            "sha256": "57c0866e2e4ec714eed0dce07db3a53a0c876e8b0e0b6d9e655095ed16460ea2",
+            "dataset_1": "PlantVillage\\Potato___healthy\\533abd3a-3e1d-42d0-ae9c-5189282b78af___RS_HL 5369.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\533abd3a-3e1d-42d0-ae9c-5189282b78af___RS_HL 5369.JPG"
+        },
+        {
+            "sha256": "580e6ced41d3e595fc6e80af9b63fb375c0144dbd92294588ba265b819fdbc3e",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\24482fe2-5139-4f73-909e-9ea4a3d8bf5d___RS_LB 4733.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\24482fe2-5139-4f73-909e-9ea4a3d8bf5d___RS_LB 4733.JPG"
+        },
+        {
+            "sha256": "5ae2e1d4a42c2e2dc20577a03b634b24bc4104a437faa8ca8b17af619364d691",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\5fa21fbf-774d-48ec-916d-c1d7b8c11c82___RS_LB 4795.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\5fa21fbf-774d-48ec-916d-c1d7b8c11c82___RS_LB 4795.JPG"
+        },
+        {
+            "sha256": "5b8d8f9041f427aa28dcb6bc36b8e4d7a8c92d7b7a60905ab62c329a1024bd13",
+            "dataset_1": "PlantVillage\\Potato___healthy\\07dfb451-4378-49d1-b699-33a5fc49ff07___RS_HL 5399.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\07dfb451-4378-49d1-b699-33a5fc49ff07___RS_HL 5399.JPG"
+        },
+        {
+            "sha256": "5c97ddd5545fe54d017b8557320becf1c7ed120f50d8adb10a204e0882abcf98",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\f3ee2886-4ada-4287-94b6-c4c93005b887___RS_LB 4352.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\f3ee2886-4ada-4287-94b6-c4c93005b887___RS_LB 4352.JPG"
+        },
+        {
+            "sha256": "5cdbded8043fa984665f462a1ec4afb35522d47a4848dca4fd1e5d7fddeba223",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\c630212c-205f-469d-bb8d-9a143f65ab03___RS_Early.B 9000.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\c630212c-205f-469d-bb8d-9a143f65ab03___RS_Early.B 9000.JPG"
+        },
+        {
+            "sha256": "6a9c570bc4896f76bb0d13513ecac32ab502c1107d6f5f152be9b8ffcd8bf9d9",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\e0654927-6cc0-491f-86d3-acb5ad261904___RS_Early.B 8341.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\e0654927-6cc0-491f-86d3-acb5ad261904___RS_Early.B 8341.JPG"
+        },
+        {
+            "sha256": "6c019b4e1a4a738e247abb979b97ec05c9cc7a14391cfdcac8ab19c7f5f6de82",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\891ddb02-a289-4d8e-8380-7568686b7a08___RS_LB 3193.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\891ddb02-a289-4d8e-8380-7568686b7a08___RS_LB 3193.JPG"
+        },
+        {
+            "sha256": "6c6d91fba5d14ab461b77846e2f5278e1fab54e776bb4928baf5461a4500b74b",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\900514b4-8768-4370-bc53-998e390644db___RS_Early.B 7788.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\900514b4-8768-4370-bc53-998e390644db___RS_Early.B 7788.JPG"
+        },
+        {
+            "sha256": "6d62bfc944856c7a1f7a12c483c227987c26fcd97a429f1b6d50466b15bbcc74",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\8be5bc25-febc-4bde-bd2b-01a54d3c6e3c___RS_Early.B 8760.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\8be5bc25-febc-4bde-bd2b-01a54d3c6e3c___RS_Early.B 8760.JPG"
+        },
+        {
+            "sha256": "6d959631f00c1bee37887e4088b43dfac9c51985e7ac57691486bf087eab340c",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\ae966e38-73b3-47c1-9421-20ac2f570f46___RS_LB 3240.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\ae966e38-73b3-47c1-9421-20ac2f570f46___RS_LB 3240.JPG"
+        },
+        {
+            "sha256": "6fa678cc649ad0514db0b4c50aae5b146918b8d4522e18525b714c7a1bcc8aca",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\d42061d8-9da0-4190-8dd0-d3629f0cfa53___RS_LB 3954.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\d42061d8-9da0-4190-8dd0-d3629f0cfa53___RS_LB 3954.JPG"
+        },
+        {
+            "sha256": "702444f64237854ed02c1399cbb584608b3d453ca33f409f588fc17703ae2d6a",
+            "dataset_1": "PlantVillage\\Potato___healthy\\1f9870b3-899e-46fb-98c9-cfc2ce92895b___RS_HL 1816.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\1f9870b3-899e-46fb-98c9-cfc2ce92895b___RS_HL 1816.JPG"
+        },
+        {
+            "sha256": "70f15e92019fc3151e68b55e0a081adf9cfd76c395f6a9cd22055536602bb1aa",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\e5d559da-71d8-4999-9d5a-05da9e6bf12e___RS_Early.B 7491.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\e5d559da-71d8-4999-9d5a-05da9e6bf12e___RS_Early.B 7491.JPG"
+        },
+        {
+            "sha256": "7276984bb359cd8d0aa386d608b7abec1c9a6db15fc4a123528f3d71dfaec520",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\3d4b41e8-18f8-400a-a961-82731c6ac4d5___RS_LB 5157.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\3d4b41e8-18f8-400a-a961-82731c6ac4d5___RS_LB 5157.JPG"
+        },
+        {
+            "sha256": "756fa522d2bfa2bad0bf35cd0ef6b1b44686af2467a68dfbccaec27401bac24b",
+            "dataset_1": "PlantVillage\\Potato___healthy\\369479a9-3c28-4d77-8731-9ae54e719af3___RS_HL 1785.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\369479a9-3c28-4d77-8731-9ae54e719af3___RS_HL 1785.JPG"
+        },
+        {
+            "sha256": "770919a252846fe0baa2de63f03720cc4ad9b200e0bf5d872321e6144781f746",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\82eb4f72-487c-4f4e-ace6-cc44a24978ec___RS_LB 2600.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\82eb4f72-487c-4f4e-ace6-cc44a24978ec___RS_LB 2600.JPG"
+        },
+        {
+            "sha256": "782de59cdfec42d6bee64c9ca7b2e7e996b4c943376582b43fea0d1ff7eaf9dd",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\c0a69909-e94c-4155-a008-20b5445c56d7___RS_LB 3909.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\c0a69909-e94c-4155-a008-20b5445c56d7___RS_LB 3909.JPG"
+        },
+        {
+            "sha256": "786a7d203443a46a34b93bcb5f3bb520287c9dcd1f474bb3d5b47eebf4d7b13b",
+            "dataset_1": "PlantVillage\\Potato___healthy\\142fb983-2166-4a0f-b99b-a6c21e99987e___RS_HL 5398.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\142fb983-2166-4a0f-b99b-a6c21e99987e___RS_HL 5398.JPG"
+        },
+        {
+            "sha256": "7a7822467457ac4762e336a42f97a69a2ed1d3e11b711c57ac2dcad6b2f46e8b",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\ae38f458-d36e-43ce-95a5-45b775692d8d___RS_Early.B 8644.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\ae38f458-d36e-43ce-95a5-45b775692d8d___RS_Early.B 8644.JPG"
+        },
+        {
+            "sha256": "7af5f9e18658ff27659f5c92036832be401bb18e51d45b04386bbcce05c9d7ec",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\3ef2279b-2fda-463a-b007-e2a93ff977f0___RS_Early.B 7235.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\3ef2279b-2fda-463a-b007-e2a93ff977f0___RS_Early.B 7235.JPG"
+        },
+        {
+            "sha256": "7c85fd33b1f8436cc026b1d127b335e8fd81e65cfdcb20b48cfb6921c7011121",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\34d62dee-797e-4f31-9063-f6a285935b4d___RS_Early.B 6733.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\34d62dee-797e-4f31-9063-f6a285935b4d___RS_Early.B 6733.JPG"
+        },
+        {
+            "sha256": "7ec08e32ea42d26401d1fdb78ce11a5b25e0dbcc43bcf05ed25afb5e0cab7302",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\98d40b59-5c50-45b6-9b8b-268c40547334___RS_Early.B 8031.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\98d40b59-5c50-45b6-9b8b-268c40547334___RS_Early.B 8031.JPG"
+        },
+        {
+            "sha256": "8168dda5a77c767342d5e4a67f5409558d82795d6b2bdfffd175e4ccc7bf5d73",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\2e18248f-e251-44c0-b9a5-a198455f43ee___RS_LB 4858.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\2e18248f-e251-44c0-b9a5-a198455f43ee___RS_LB 4858.JPG"
+        },
+        {
+            "sha256": "81f51be26cbeec62b89fcb6e7a63d548d0a3ad51619cc42a205f16f19344c358",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\a440233c-0ef8-408f-8ebb-1c12e8bc4464___RS_LB 4768.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\a440233c-0ef8-408f-8ebb-1c12e8bc4464___RS_LB 4768.JPG"
+        },
+        {
+            "sha256": "89fa5a9ace2da61e96dc64f2ef924e9ad0d755caef7a6a7cf21ad18a9e1e0559",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\4f20f0e5-b870-414c-99a0-136575a61ce5___RS_Early.B 6724.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\4f20f0e5-b870-414c-99a0-136575a61ce5___RS_Early.B 6724.JPG"
+        },
+        {
+            "sha256": "8ab0d27f2336f9a91da5fdc351dbc390d9bdef840293ad91985b5ad10a2d08b4",
+            "dataset_1": "PlantVillage\\Potato___healthy\\57e262fc-e0ba-44db-a967-5ba6f1826e49___RS_HL 1897.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\57e262fc-e0ba-44db-a967-5ba6f1826e49___RS_HL 1897.JPG"
+        },
+        {
+            "sha256": "8cb021f5a3ae857b8661b23ccb35d096ca5397e6f12a045ddc29dde9991dbbc3",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\58f100f0-490b-4868-95d1-5883fc3432d3___RS_LB 3302.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\58f100f0-490b-4868-95d1-5883fc3432d3___RS_LB 3302.JPG"
+        },
+        {
+            "sha256": "8ccabb149752edfd9826b859e4c5ec87b18c4c1d2345b4a71237221f1c2b65ce",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\24ced43c-a862-4e3d-8300-dffd350de2c4___RS_Early.B 6957.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\24ced43c-a862-4e3d-8300-dffd350de2c4___RS_Early.B 6957.JPG"
+        },
+        {
+            "sha256": "8d0cfffe8979e6f03252537b5dd3786774e0ef3386709c34681afd23dfee5d59",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b536ea91-c5f8-413b-87f3-a22ac3d959d1___RS_HL 1825.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b536ea91-c5f8-413b-87f3-a22ac3d959d1___RS_HL 1825.JPG"
+        },
+        {
+            "sha256": "90ff6e9232f91ba8f459b85baf4363d8e33e0f6b2deee5d3cee7a49cd4031f32",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b89db9d3-a413-4781-bc88-5f6c2085ab5f___RS_HL 1909.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b89db9d3-a413-4781-bc88-5f6c2085ab5f___RS_HL 1909.JPG"
+        },
+        {
+            "sha256": "934eda70bfadffb6f40739275d788477368e735c2ddf1cf0ba9263a8021557f2",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\879d0dfe-d17d-486a-992c-d80089133c50___RS_Early.B 7428.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\879d0dfe-d17d-486a-992c-d80089133c50___RS_Early.B 7428.JPG"
+        },
+        {
+            "sha256": "937caf6c1ae8b4db84979f24585357b8dc22e769231fb429cdb61dcb797fa494",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\52fb5725-33cf-4076-9abc-93311d027da2___RS_Early.B 8415.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\52fb5725-33cf-4076-9abc-93311d027da2___RS_Early.B 8415.JPG"
+        },
+        {
+            "sha256": "97ffd530447b2042eb52a12f59e7ddb77a39f672c92d0a15e12ef03dd0cad9b4",
+            "dataset_1": "PlantVillage\\Potato___healthy\\111cd9d8-4d27-4225-be9e-d29b21cf56b9___RS_HL 5419.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\111cd9d8-4d27-4225-be9e-d29b21cf56b9___RS_HL 5419.JPG"
+        },
+        {
+            "sha256": "985f026f0b7c72fce793884046f909a2170f4ddf8949c416f75ad0bad55f3f54",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\61da9830-ebfd-483a-88dd-a66fcff4c457___RS_Early.B 7817.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\61da9830-ebfd-483a-88dd-a66fcff4c457___RS_Early.B 7817.JPG"
+        },
+        {
+            "sha256": "98c60d87b7922550d745e46c69a9852ebc7059cd70503391514f8a76871b50c8",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\c101232e-6487-495c-ad3a-27cd1e5fb2b9___RS_LB 2573.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\c101232e-6487-495c-ad3a-27cd1e5fb2b9___RS_LB 2573.JPG"
+        },
+        {
+            "sha256": "996d27fdb8b883b8819ad98cd3066b3baf62af8c8e61a106b29589994dc5f630",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\f8de1c8d-67a0-4825-9ad6-e15809ff909c___RS_Early.B 7348.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\f8de1c8d-67a0-4825-9ad6-e15809ff909c___RS_Early.B 7348.JPG"
+        },
+        {
+            "sha256": "9a639201a04862871751f51de6d95502e40f942f91aaced69c837980dd28091f",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\1531198a-c611-47ee-af7d-7b124b863870___RS_LB 4793.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\1531198a-c611-47ee-af7d-7b124b863870___RS_LB 4793.JPG"
+        },
+        {
+            "sha256": "9b97ee79d4e67c4372cb75d224c0d2e116a622bfff664e22694e8bec2f873bf7",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\b469e38c-ef99-4ed1-b294-1e65727138fb___RS_LB 4056.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\b469e38c-ef99-4ed1-b294-1e65727138fb___RS_LB 4056.JPG"
+        },
+        {
+            "sha256": "9bc1eda8d330bbd53f7950f4980a3aaa4ea9035e8cda95774c59d53e0f45420f",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\5fe37f29-fe15-42ac-93b5-90aa5337bd55___RS_LB 2514.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\5fe37f29-fe15-42ac-93b5-90aa5337bd55___RS_LB 2514.JPG"
+        },
+        {
+            "sha256": "9bc63b1644476cd56b9d6abf3ecbc3ed3d11c938ed284c9656cec0469db65063",
+            "dataset_1": "PlantVillage\\Potato___healthy\\f5bd2732-197b-4d8e-bb50-a4966dc416f5___RS_HL 1840.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\f5bd2732-197b-4d8e-bb50-a4966dc416f5___RS_HL 1840.JPG"
+        },
+        {
+            "sha256": "9e08f454f51c8c3bad81584ead7893be0148c42afc42537c9e10f3eca9df5a66",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\72f9e596-8d1e-4ffd-923d-55645d6adca1___RS_Early.B 7704.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\72f9e596-8d1e-4ffd-923d-55645d6adca1___RS_Early.B 7704.JPG"
+        },
+        {
+            "sha256": "9f503cd39a885e3ab8bcb5aaff567c87c5b5c7cef76433b98b9068c600fa39f9",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\4af8e9e9-077d-4c7b-859d-626f74d3b1ff___RS_Early.B 7738.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\4af8e9e9-077d-4c7b-859d-626f74d3b1ff___RS_Early.B 7738.JPG"
+        },
+        {
+            "sha256": "a0c43497abeebe5a1022e99315a9352943f156778e8a65a6e40f5ecf33f0ed08",
+            "dataset_1": "PlantVillage\\Potato___healthy\\14484ea5-9c34-427c-abe4-2743265aced0___RS_HL 4204.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\14484ea5-9c34-427c-abe4-2743265aced0___RS_HL 4204.JPG"
+        },
+        {
+            "sha256": "a44d523a14f6d7c7dbe9f768c64c307023428cb2a53aad14ccf96c2e618e6abe",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\33551627-5824-42b9-9547-4df44590fee1___RS_LB 4848.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\33551627-5824-42b9-9547-4df44590fee1___RS_LB 4848.JPG"
+        },
+        {
+            "sha256": "a70cbe9835f93396fe3044bf413e2113fbaefe6a1d97cb16d7b3d5112fd2907d",
+            "dataset_1": "PlantVillage\\Potato___healthy\\7948ada9-eabc-4cb7-a579-b73e938eb716___RS_HL 4185.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\7948ada9-eabc-4cb7-a579-b73e938eb716___RS_HL 4185.JPG"
+        },
+        {
+            "sha256": "a78b9f66d7abc816ac2d565f59a5336c82d831ebc6ca5a102779bd18e2f519b4",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\8acd2e1a-f965-4abb-bd16-8c0a4e918d2c___RS_LB 4644.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\8acd2e1a-f965-4abb-bd16-8c0a4e918d2c___RS_LB 4644.JPG"
+        },
+        {
+            "sha256": "aaa73a73e9c1a9da69b6c8455aefbf741184dc4dcb9673876cdf44e25d60a655",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\4d56ef9d-bc69-489c-92de-d2fad01d762d___RS_LB 3890.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\4d56ef9d-bc69-489c-92de-d2fad01d762d___RS_LB 3890.JPG"
+        },
+        {
+            "sha256": "ab7477d99b7d70a1f8fb5d4785accc8094c26f65814053dd019d04ba8a17bcc7",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\6bb48ab5-6f0d-4bd8-a3c0-bf2b6d5ed936___RS_Early.B 7281.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\6bb48ab5-6f0d-4bd8-a3c0-bf2b6d5ed936___RS_Early.B 7281.JPG"
+        },
+        {
+            "sha256": "ac3a362ad3f31cb25991e44abb64de445f5a96c6d9f626c10cde741881bb699f",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\d8a8d6e5-d82d-4f7c-aac5-183e85549d9b___RS_Early.B 7799.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\d8a8d6e5-d82d-4f7c-aac5-183e85549d9b___RS_Early.B 7799.JPG"
+        },
+        {
+            "sha256": "ad963a48a9d29c03a9543cf272be3b3b9066842e73039bfc8aebbad81d01c5e8",
+            "dataset_1": "PlantVillage\\Potato___healthy\\e693354a-053c-4093-8642-cc8f5f9eb2cc___RS_HL 1746.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\e693354a-053c-4093-8642-cc8f5f9eb2cc___RS_HL 1746.JPG"
+        },
+        {
+            "sha256": "b20a2071b49c39c681f3fae700e8a9046eafe67f8b9389c43b3a61a640672498",
+            "dataset_1": "PlantVillage\\Potato___healthy\\61b8a692-91d8-40f5-a4a4-4d910875a638___RS_HL 1966.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\61b8a692-91d8-40f5-a4a4-4d910875a638___RS_HL 1966.JPG"
+        },
+        {
+            "sha256": "b248838515e8dbd0f9a4deade3e18974e57b7ac82f1081681e8f2f1d21138b30",
+            "dataset_1": "PlantVillage\\Potato___healthy\\c548fe0e-21c2-4241-b806-1e438a1213bd___RS_HL 1770.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\c548fe0e-21c2-4241-b806-1e438a1213bd___RS_HL 1770.JPG"
+        },
+        {
+            "sha256": "b3aca833eac476f36803eabfcc87214cdb8cfe83e1da5add9a15ddb9699ffcb2",
+            "dataset_1": "PlantVillage\\Potato___healthy\\43fd6ace-3712-494a-9aba-de5482d22561___RS_HL 1968.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\43fd6ace-3712-494a-9aba-de5482d22561___RS_HL 1968.JPG"
+        },
+        {
+            "sha256": "b3dd001b2e010e4deac6e95fb326531ddd918a6dcbb0ddf1b2dfa958c38c29c2",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\4b925312-1973-41cf-afdf-9090d02dd539___RS_Early.B 7913.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\4b925312-1973-41cf-afdf-9090d02dd539___RS_Early.B 7913.JPG"
+        },
+        {
+            "sha256": "b48040a9f2e718ff95d1718459e297673ac314d7b21130d57749068ef912d832",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\e231f522-dd72-4fbd-94b4-5b4d7b935269___RS_LB 4131.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\e231f522-dd72-4fbd-94b4-5b4d7b935269___RS_LB 4131.JPG"
+        },
+        {
+            "sha256": "b4c50ce2b1848b619b249ff81ed7ab435808ba6134e936e8f64868c3b46f433f",
+            "dataset_1": "PlantVillage\\Potato___healthy\\23f1ab77-d664-49c4-92eb-41eb66c6d101___RS_HL 4169.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\23f1ab77-d664-49c4-92eb-41eb66c6d101___RS_HL 4169.JPG"
+        },
+        {
+            "sha256": "b5af83b3ed01b359ffeb202cfa2f95c68d9510c2cce641eaa7ebf7184df9350d",
+            "dataset_1": "PlantVillage\\Potato___healthy\\dca8ac5c-b925-435a-a5e9-da09fa8938a1___RS_HL 4182.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\dca8ac5c-b925-435a-a5e9-da09fa8938a1___RS_HL 4182.JPG"
+        },
+        {
+            "sha256": "b6da280f8bf18d3861a25ec172bb48ec8eadf2c1b52e64a867af720a598ce858",
+            "dataset_1": "PlantVillage\\Potato___healthy\\ec6e43d3-512d-4908-99f2-c9e2a0be54be___RS_HL 4202.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\ec6e43d3-512d-4908-99f2-c9e2a0be54be___RS_HL 4202.JPG"
+        },
+        {
+            "sha256": "b8128c3d774823ee5baa6614566a4e38a5e7ef27e3ad870127651ea2876233b4",
+            "dataset_1": "PlantVillage\\Potato___healthy\\a02b6205-b40a-4178-8b34-3494f84b9d1f___RS_HL 1958.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\a02b6205-b40a-4178-8b34-3494f84b9d1f___RS_HL 1958.JPG"
+        },
+        {
+            "sha256": "b885b4ed5fbd62fa1b1839f6ebbe23af5d6a454b8b743016a7189e863e8068df",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\c6ecc36c-1886-4d2d-89aa-0e9e9dc7ba32___RS_LB 4997.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\c6ecc36c-1886-4d2d-89aa-0e9e9dc7ba32___RS_LB 4997.JPG"
+        },
+        {
+            "sha256": "b9b7a1fe17362b41f497f1b44650d041db1c7ad0a505b4fb7214031215521e1c",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\b2492a9e-c038-48a7-8524-8f0aca7dc870___RS_LB 4291.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\b2492a9e-c038-48a7-8524-8f0aca7dc870___RS_LB 4291.JPG"
+        },
+        {
+            "sha256": "ba55e7d5284df7efb5f8aeb39c2c64f0f8574004eaaaa2dab27eb884db7cbfbb",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\f9d861a9-0217-4de2-844f-fd23ccaa9def___RS_LB 3067.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\f9d861a9-0217-4de2-844f-fd23ccaa9def___RS_LB 3067.JPG"
+        },
+        {
+            "sha256": "bb9d4a3648c2552131c59e109fe0b4460cff998d108fbf67e59df564f239a384",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\1a6fc494-81dd-4649-ad8d-a5a6e58a2aa7___RS_LB 2618.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\1a6fc494-81dd-4649-ad8d-a5a6e58a2aa7___RS_LB 2618.JPG"
+        },
+        {
+            "sha256": "c310d95d77f39b4f518ac7777b0944be95aad0ed5528f9545c8ddcf3d8ac8649",
+            "dataset_1": "PlantVillage\\Potato___healthy\\c85bacb0-e5e8-4127-a0b0-a7342f2cab5f___RS_HL 5406.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\c85bacb0-e5e8-4127-a0b0-a7342f2cab5f___RS_HL 5406.JPG"
+        },
+        {
+            "sha256": "c55ee9ba98b39fecebca1123851c82fa82bf672d51f70ede9d47c5177142e98b",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\35c3e2fe-7b97-4137-adc6-aada45306425___RS_LB 4123.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\35c3e2fe-7b97-4137-adc6-aada45306425___RS_LB 4123.JPG"
+        },
+        {
+            "sha256": "c6aaf4f72074fb750beb5cb87faa68c584f2cedbb38be89876a83505101835dc",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\f14f54ba-3706-4f6e-8152-01226e55c86e___RS_LB 4237.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\f14f54ba-3706-4f6e-8152-01226e55c86e___RS_LB 4237.JPG"
+        },
+        {
+            "sha256": "c84f295d30dc6a7060ddc92007beb6cad78137000d28ef409255a8c002024c82",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\0f6eac3b-d674-4c4d-ab3a-88689feec07f___RS_LB 5232.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\0f6eac3b-d674-4c4d-ab3a-88689feec07f___RS_LB 5232.JPG"
+        },
+        {
+            "sha256": "c9f2a691559f1079fc9a9d5ccff8bae5c1db8fd05f3a86581cb19feb2684eb3f",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\2cce6cd6-16c4-426f-84e6-2f3c192fac2c___RS_Early.B 8999.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\2cce6cd6-16c4-426f-84e6-2f3c192fac2c___RS_Early.B 8999.JPG"
+        },
+        {
+            "sha256": "cd31acf4a1e5da067410709a8ca3e2283436f1e4a4805110baa51196220f1ad4",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\e4a264b9-fbae-4f38-86ce-d0a7d70e92e1___RS_LB 5211.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\e4a264b9-fbae-4f38-86ce-d0a7d70e92e1___RS_LB 5211.JPG"
+        },
+        {
+            "sha256": "ce3686edbcc9ed01e7168706e76bef0e4d31ee611ad1b08bf05be1cfcd1ccc29",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\fc1ab935-21b3-42e7-a870-02fd71c5d845___RS_Early.B 6894.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\fc1ab935-21b3-42e7-a870-02fd71c5d845___RS_Early.B 6894.JPG"
+        },
+        {
+            "sha256": "d71f3211c5a3760ccf8b0bb44dd4353c51c1c15df827ca3a8ac2fbdcf3d759d8",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\a88a6388-09fa-4cfc-a82e-94d5fd3b4972___RS_LB 2748.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\a88a6388-09fa-4cfc-a82e-94d5fd3b4972___RS_LB 2748.JPG"
+        },
+        {
+            "sha256": "dbb6a28c75278bc61e0e4bc14a030f12241e7cb304309bc3c29e28834898fb87",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\7460b5a9-4356-40b3-acf6-e61601a63b62___RS_LB 4965.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\7460b5a9-4356-40b3-acf6-e61601a63b62___RS_LB 4965.JPG"
+        },
+        {
+            "sha256": "dc37d132faf96f38f40b6aeef03ed7fbd950c6076dbd755868c66bb4721dc03d",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\89d4dba2-3d9c-46fe-bac3-6be833b01351___RS_Early.B 6749.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\89d4dba2-3d9c-46fe-bac3-6be833b01351___RS_Early.B 6749.JPG"
+        },
+        {
+            "sha256": "dd8d0faeaaf4bc402febd7ea4203808ad3bbeead2fe2883c8006b31a487925a7",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\53b09253-988e-4a22-966c-b5a03ed6bc44___RS_LB 2924.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\53b09253-988e-4a22-966c-b5a03ed6bc44___RS_LB 2924.JPG"
+        },
+        {
+            "sha256": "df8bce3e85b46f9a307fd5a8f01319c54575005c992c4b6fbca9934578ffc624",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\d1184bb1-defe-44b3-aa71-d03fe11bf535___RS_Early.B 8787.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\d1184bb1-defe-44b3-aa71-d03fe11bf535___RS_Early.B 8787.JPG"
+        },
+        {
+            "sha256": "e26be6fe5f9765eb05dffbfd5f1a93514aa66b6df58cbcde597f41265351bf6e",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\dc2775b9-e62e-4fe5-921f-e1cf5c4e2fe4___RS_Early.B 6942.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\dc2775b9-e62e-4fe5-921f-e1cf5c4e2fe4___RS_Early.B 6942.JPG"
+        },
+        {
+            "sha256": "e5095e99b3e9d603e939cb03d91f2f290f9cd2a3ab54f8971ffa4fd106e0937f",
+            "dataset_1": "PlantVillage\\Potato___healthy\\e51367c1-d582-45e3-acf6-b0e652b43d3a___RS_HL 1873.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\e51367c1-d582-45e3-acf6-b0e652b43d3a___RS_HL 1873.JPG"
+        },
+        {
+            "sha256": "e8690115a69af1ef1635381e70f125bd71ff1d12d67bd57c30e059944e06aab7",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b9ea902d-e557-4fa5-893b-39a7a57c0121___RS_HL 1893.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b9ea902d-e557-4fa5-893b-39a7a57c0121___RS_HL 1893.JPG"
+        },
+        {
+            "sha256": "e90fa394857caaa3f4853bae3b3a57a1b424e12b1163ced5911e15e0be37fcfe",
+            "dataset_1": "PlantVillage\\Potato___healthy\\b8b7b98a-eb1a-4213-9b0b-aeef4df427e8___RS_HL 1858.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\b8b7b98a-eb1a-4213-9b0b-aeef4df427e8___RS_HL 1858.JPG"
+        },
+        {
+            "sha256": "ee09db8f85a6d9e2780c0eb422fdc2a08ad5ce6d208f907665696d10cdee8e4d",
+            "dataset_1": "PlantVillage\\Potato___healthy\\683b04ad-7941-4819-9965-ba32c725eb22___RS_HL 1861.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\683b04ad-7941-4819-9965-ba32c725eb22___RS_HL 1861.JPG"
+        },
+        {
+            "sha256": "f02962abeb9cb9a7318b93a8af503130930de9d3229b2d0950754178afc928c8",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\a801f66c-b8bc-42e5-ad5b-99f68d219fa9___RS_Early.B 8552.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\a801f66c-b8bc-42e5-ad5b-99f68d219fa9___RS_Early.B 8552.JPG"
+        },
+        {
+            "sha256": "f2d168ec509523379feeed25d97597092f4b691a30f779466dc88f95e11d76f2",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\37d5791e-19e8-4095-a1cd-36aede6d0802___RS_Early.B 7172.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\37d5791e-19e8-4095-a1cd-36aede6d0802___RS_Early.B 7172.JPG"
+        },
+        {
+            "sha256": "f438cdc131616a54a406508bee7b6f68862838292e89562614eddb6a5e54919a",
+            "dataset_1": "PlantVillage\\Potato___healthy\\8583c4ff-2d8b-4b6f-89a8-fcc98917ce9b___RS_HL 1961.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\8583c4ff-2d8b-4b6f-89a8-fcc98917ce9b___RS_HL 1961.JPG"
+        },
+        {
+            "sha256": "f503ffb185d564be7c17c95ae6f394ee532544830a2128e1ab30421ca07da3a2",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\e50e7166-a67d-4207-a49c-0240b0218d48___RS_Early.B 8907.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\e50e7166-a67d-4207-a49c-0240b0218d48___RS_Early.B 8907.JPG"
+        },
+        {
+            "sha256": "f8a8a565b2d0b58a0a40c0c55dff08b66101a17178ce0824fd6dfdc488b2e689",
+            "dataset_1": "PlantVillage\\Potato___healthy\\d227e4c8-e203-4aa4-b813-25b96baa2869___RS_HL 1831.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\d227e4c8-e203-4aa4-b813-25b96baa2869___RS_HL 1831.JPG"
+        },
+        {
+            "sha256": "f972bcc8b6a5bd34c00bc68210f7d487993c495ea8d7b37aca0f9f04608fb745",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\9e979a65-61bf-4d07-a444-7c22ae1a58b1___RS_LB 4886.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\9e979a65-61bf-4d07-a444-7c22ae1a58b1___RS_LB 4886.JPG"
+        },
+        {
+            "sha256": "fb3e937b447382752f31804214040518a6af3cd4e230c13d6885830c852a1ec1",
+            "dataset_1": "PlantVillage\\Potato___healthy\\36bdc44c-96a4-40bb-86f7-63a91d706e96___RS_HL 4203.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\36bdc44c-96a4-40bb-86f7-63a91d706e96___RS_HL 4203.JPG"
+        },
+        {
+            "sha256": "fb7eed17d745d40f0fe80a1b43e9c005112b1e18bda79a7ccddebe707c55edff",
+            "dataset_1": "PlantVillage\\Potato___Early_blight\\5bb77b39-311b-4ad1-8bfc-5a41a13b7b02___RS_Early.B 8255.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Early_Blight\\5bb77b39-311b-4ad1-8bfc-5a41a13b7b02___RS_Early.B 8255.JPG"
+        },
+        {
+            "sha256": "fddde13a83a70c8ba7022f5fc492cbb9fcafb9f37582315c6135147a5fd70ae8",
+            "dataset_1": "PlantVillage\\Potato___healthy\\30937333-8898-4634-8c00-af57d3020ba6___RS_HL 1922.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Healthy\\30937333-8898-4634-8c00-af57d3020ba6___RS_HL 1922.JPG"
+        },
+        {
+            "sha256": "ff71cbd0f7514c2eed39766582550169c9070dbb7d47afd5adf9dcf08f31f1ca",
+            "dataset_1": "PlantVillage\\Potato___Late_blight\\5239c829-457f-4e6c-b0af-ef5f58abddd0___RS_LB 5329.JPG",
+            "dataset_2": "Final_Dataset\\Potato\\Potato___Late_Blight\\5239c829-457f-4e6c-b0af-ef5f58abddd0___RS_LB 5329.JPG"
+        }
+    ]
+}

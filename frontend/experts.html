@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropCure AI | Agriculture Expert Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation Bar
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🌱 <span data-i18n="nav.brand">CropCure AI</span>
+        </div>
+
+        <nav>
+            <a href="index.html#home" data-i18n="nav.home">Home</a>
+            <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Diagnosis</a>
+            <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+            <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+            <a href="experts.html" class="active-nav" data-i18n="nav.experts">Agriculture Experts</a>
+            <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            <a href="index.html#chat" data-i18n="nav.chat">AI Assistant</a>
+            <a href="index.html#about" data-i18n="nav.about">About</a>
+        </nav>
+
+        <div class="lang-selector-wrapper">
+            <span class="globe-icon" aria-hidden="true">🌐</span>
+            <select id="languageSelector" class="language-dropdown" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="te">తెలుగు (Telugu)</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         Main Content - Expert Support Page
+    ========================== -->
+
+    <main>
+
+        <section id="experts" class="experts-section">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="experts.section_label">INSTITUTIONAL EXTENSION & SCIENTIFIC ADVISORY</p>
+                <h2 data-i18n="experts.title">Agriculture Expert Support & Extension Services</h2>
+                <p data-i18n="experts.description">
+                    Connect with certified agricultural scientists, Krishi Vigyan Kendras (KVKs),
+                    and government agricultural extension officers across India.
+                </p>
+            </div>
+
+            <div class="experts-container">
+
+                <!-- Transparency & Safety Advisory Banner -->
+                <div class="expert-banner">
+                    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                        <div class="expert-banner-title">
+                            <span>🛡️</span>
+                            <span data-i18n="experts.banner_title">Official Agricultural Advisory & Preliminary Prediction Notice</span>
+                        </div>
+                        <span class="expert-banner-badge">Academic & Safety Guidelines</span>
+                    </div>
+
+                    <p class="expert-banner-text" data-i18n="experts.banner_text">
+                        CropCure AI provides computer-vision based preliminary assessments. Machine-learning predictions
+                        should never replace in-person physical crop inspection by certified agricultural scientists,
+                        especially before applying restricted or chemical treatments.
+                    </p>
+
+                    <div class="expert-safety-grid">
+                        <div class="expert-safety-item">
+                            🔬 <strong>Preliminary Screening:</strong> Visual diagnosis models classify image patterns but cannot inspect roots, stem vascular bundles, soil moisture, or microscopic spore structures.
+                        </div>
+                        <div class="expert-safety-item">
+                            🧪 <strong>No Auto-Pesticides:</strong> CropCure AI strictly avoids prescribing chemical pesticide doses. Only qualified extension officers can calculate safe field dosage rates.
+                        </div>
+                        <div class="expert-safety-item">
+                            🔒 <strong>Privacy Assured:</strong> Device location is optional. Crop images and consultation notes stay strictly on your local browser and are never uploaded to third parties without your action.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- National Kisan Call Centre Highlight Box -->
+                <div class="kcc-card">
+                    <div class="kcc-content">
+                        <div class="kcc-header">
+                            <span class="kcc-icon">📞</span>
+                            <div>
+                                <h3 data-i18n="experts.kcc_title">National Kisan Call Centre (Toll-Free Hotline)</h3>
+                                <p class="kcc-hotline-number">
+                                    <span data-i18n="experts.kcc_number">1800-180-1551</span>
+                                    <span class="kcc-status-pill">● Toll-Free All India</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="kcc-desc" data-i18n="experts.kcc_desc">
+                            Direct telephone access to agricultural extension officers for crop diagnosis, weather advisories,
+                            market rates, and government schemes in 22 local languages.
+                        </p>
+
+                        <div class="kcc-meta-row">
+                            <span class="kcc-hours" data-i18n="experts.kcc_hours">
+                                Operating Hours: 6:00 AM to 10:00 PM (All 7 Days) · IVRS available 24/7
+                            </span>
+                            <span class="kcc-advisory" data-i18n="experts.kcc_advisory">
+                                Note: Farmers should confirm current service availability and language options through official sources.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="kcc-actions">
+                        <a href="tel:18001801551" class="btn-call-kcc" data-i18n="experts.kcc_action">
+                            📞 Call Toll-Free 1800-180-1551
+                        </a>
+                        <a href="https://farmer.gov.in" target="_blank" rel="noopener noreferrer" class="btn-kcc-portal">
+                            Visit Kisan Portal ↗
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- "When to Contact an Expert" Guide -->
+                <div class="when-contact-card">
+                    <div class="when-card-header">
+                        <h3 data-i18n="experts.when_title">When to Consult an Agricultural Expert</h3>
+                        <p data-i18n="experts.when_desc">
+                            While AI visual diagnosis provides rapid initial screening, you should contact your local KVK or Agriculture Officer in these situations:
+                        </p>
+                    </div>
+
+                    <div class="when-grid">
+                        <div class="when-item">
+                            <div class="when-icon">⚠️</div>
+                            <h4 data-i18n="experts.when1_title">1. Uncertain Visual Diagnosis (< 50% Confidence)</h4>
+                            <p data-i18n="experts.when1_desc">
+                                When visual symptoms overlap among multiple diseases or confidence is low, laboratory inspection or field examination is essential before taking corrective action.
+                            </p>
+                        </div>
+
+                        <div class="when-item">
+                            <div class="when-icon">📈</div>
+                            <h4 data-i18n="experts.when2_title">2. Worsening or Rapidly Spreading Symptoms</h4>
+                            <p data-i18n="experts.when2_desc">
+                                If leaf lesions, wilting, or yellowing spreads quickly across your field despite initial sanitation or cultural measures.
+                            </p>
+                        </div>
+
+                        <div class="when-item">
+                            <div class="when-icon">🔄</div>
+                            <h4 data-i18n="experts.when3_title">3. Recurring Disease Outbreaks / Soil Issues</h4>
+                            <p data-i18n="experts.when3_desc">
+                                If the disease reappears in successive seasons, suggesting soil-borne pathogens, resistant strains, or micronutrient deficiencies.
+                            </p>
+                        </div>
+
+                        <div class="when-item">
+                            <div class="when-icon">🧪</div>
+                            <h4 data-i18n="experts.when4_title">4. Chemical Treatment & Fungicide Decisions</h4>
+                            <p data-i18n="experts.when4_desc">
+                                Never apply chemical fungicides, insecticides, or restricted formulations without confirming the target pathogen, label dose, waiting periods, and safety intervals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Established Institutions Directory -->
+                <div class="institutions-card">
+                    <div class="institutions-header">
+                        <h3 data-i18n="experts.institutions_title">Established Agricultural Extension Institutions in India</h3>
+                        <p data-i18n="experts.institutions_desc">
+                            Official government and academic bodies providing verified diagnostic and advisory support to Indian farmers:
+                        </p>
+                    </div>
+
+                    <div class="institutions-grid">
+                        <!-- KVK Card -->
+                        <div class="inst-grid-card">
+                            <div class="inst-card-top">
+                                <span class="inst-icon">🏛️</span>
+                                <div>
+                                    <h4 data-i18n="experts.kvk_title">Krishi Vigyan Kendras (KVKs)</h4>
+                                    <span class="inst-badge">730+ Centers in India</span>
+                                </div>
+                            </div>
+                            <p data-i18n="experts.kvk_desc">
+                                Network of 730+ ICAR agricultural science centres located in nearly every rural district of India. Provides hands-on crop diagnosis, soil testing, and technology demonstration.
+                            </p>
+                            <div class="inst-card-links">
+                                <a href="https://kvk.icar.gov.in" target="_blank" rel="noopener noreferrer" class="inst-link">
+                                    Official ICAR KVK Portal ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- State Dept Card -->
+                        <div class="inst-grid-card">
+                            <div class="inst-card-top">
+                                <span class="inst-icon">🏢</span>
+                                <div>
+                                    <h4 data-i18n="experts.dept_title">State Agriculture Departments & Krishi Bhavans</h4>
+                                    <span class="inst-badge">District & Block Level</span>
+                                </div>
+                            </div>
+                            <p data-i18n="experts.dept_desc">
+                                District Agriculture Officers (DAO) and Block-level Agriculture Development Officers (ADO) providing field inspections, input subsidy verification, and subsidized pest control.
+                            </p>
+                            <div class="inst-card-links">
+                                <a href="https://agricoop.nic.in" target="_blank" rel="noopener noreferrer" class="inst-link">
+                                    Dept of Agriculture Portal ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- SAU Card -->
+                        <div class="inst-grid-card">
+                            <div class="inst-card-top">
+                                <span class="inst-icon">🎓</span>
+                                <div>
+                                    <h4 data-i18n="experts.univ_title">Agricultural Universities (SAUs) & ICAR Institutes</h4>
+                                    <span class="inst-badge">Specialist Plant Pathology Clinics</span>
+                                </div>
+                            </div>
+                            <p data-i18n="experts.univ_desc">
+                                State Agricultural Universities and national research institutes offering specialized plant pathology clinics, diagnostic laboratories, and crop management guidelines.
+                            </p>
+                            <div class="inst-card-links">
+                                <a href="https://icar.org.in" target="_blank" rel="noopener noreferrer" class="inst-link">
+                                    ICAR Central Portal ↗
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Location-Based KVK and Extension Office Finder -->
+                <div class="expert-location-card">
+                    <h3 data-i18n="experts.location_label">Find Your District KVK & Extension Office:</h3>
+
+                    <div class="location-input-group">
+                        <div class="location-input-wrapper">
+                            <span class="location-icon-adornment">📍</span>
+                            <input
+                                type="text"
+                                id="expertLocationInput"
+                                class="shops-location-input"
+                                placeholder="Enter state, district, city, or PIN code (e.g. Pune, Karnal, Guntur, 522002)..."
+                                data-i18n-placeholder="experts.location_placeholder"
+                                aria-label="Enter state, district, city or PIN code"
+                            />
+                        </div>
+                        <button
+                            type="button"
+                            id="detectExpertLocationBtn"
+                            class="btn-detect-location"
+                            data-i18n="experts.detect_btn"
+                        >
+                            🎯 Use My Location (Optional)
+                        </button>
+                        <button
+                            type="button"
+                            id="clearExpertLocationBtn"
+                            class="clear-search-btn"
+                            style="display: none;"
+                        >
+                            ✕ Clear
+                        </button>
+                    </div>
+
+                    <div style="margin-top: 10px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                        <button
+                            type="button"
+                            id="findExpertsBtn"
+                            class="primary-button"
+                            style="padding: 10px 24px; font-size: 0.95rem;"
+                            data-i18n="experts.search_btn"
+                        >
+                            🔍 Find Local KVK / Office
+                        </button>
+                        <span id="expertGeoStatus" style="font-size: 0.88rem; color: #4b5563;"></span>
+                    </div>
+
+                    <!-- Search Results Box -->
+                    <div id="expertsResultsArea" class="expert-results-area hidden">
+                        <h4 style="margin-bottom: 8px; color: #166534;">
+                            <span data-i18n="experts.results_for">Agricultural Extension & KVK Options for:</span>
+                            <span id="expertLocationDisplay" style="text-decoration: underline;"></span>
+                        </h4>
+
+                        <div class="expert-links-grid">
+                            <a id="btnMapsKvk" href="#" target="_blank" rel="noopener noreferrer" class="btn-expert-action">
+                                🗺️ Find Nearby KVKs on Google Maps ↗
+                            </a>
+                            <a id="btnMapsDept" href="#" target="_blank" rel="noopener noreferrer" class="btn-expert-action">
+                                🏛️ Find District Agriculture Office on Maps ↗
+                            </a>
+                            <a id="btnPortalKvk" href="https://kvk.icar.gov.in" target="_blank" rel="noopener noreferrer" class="btn-expert-action">
+                                🌐 Open ICAR KVK Directory Portal ↗
+                            </a>
+                            <a href="tel:18001801551" class="btn-expert-action">
+                                📞 Call Kisan Call Centre: 1800-180-1551
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Farmer Consultation Summary Generator -->
+                <div class="consultation-summary-card">
+                    <div class="summary-header">
+                        <h3 data-i18n="experts.summary_title">Farmer Consultation Summary Generator</h3>
+                        <p data-i18n="experts.summary_desc">
+                            Generate a structured consultation summary from your visual diagnosis to share with a KVK scientist or Agriculture Extension Officer over WhatsApp, SMS, or printout.
+                        </p>
+                        <p id="summaryAutoLoadedNote" class="summary-auto-note hidden" data-i18n="experts.auto_loaded_note">
+                            ✓ Pre-filled from your most recent crop visual diagnosis on this device.
+                        </p>
+                    </div>
+
+                    <div class="summary-form-grid">
+                        <div class="form-group">
+                            <label for="summaryDate">Consultation Date:</label>
+                            <input type="date" id="summaryDate" class="summary-input" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="summaryCrop" data-i18n="experts.crop_label">Crop Name:</label>
+                            <input type="text" id="summaryCrop" class="summary-input" placeholder="e.g. Tomato, Potato, Corn, Apple, Grape..." />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="summaryDisease" data-i18n="experts.disease_label">Visual Diagnosis / Suspected Disease:</label>
+                            <input type="text" id="summaryDisease" class="summary-input" placeholder="e.g. Tomato Early Blight / Alternaria solani" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="summaryConfidence" data-i18n="experts.confidence_label">Visual Confidence Level:</label>
+                            <input type="text" id="summaryConfidence" class="summary-input" placeholder="e.g. 84.5% (High) or < 50% (Uncertain)" />
+                        </div>
+
+                        <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="summarySeverity" data-i18n="experts.severity_label">Severity / Extent of Damage:</label>
+                            <select id="summarySeverity" class="summary-input">
+                                <option value="Low (Few leaves / isolated plants)" data-i18n="experts.severity_opt1">Low (Few leaves / isolated plants)</option>
+                                <option value="Moderate (10% - 25% of crop affected)" data-i18n="experts.severity_opt2">Moderate (10% - 25% of crop affected)</option>
+                                <option value="Severe (> 25% of field affected / spreading fast)" data-i18n="experts.severity_opt3">Severe (> 25% of field affected / spreading fast)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="summarySymptoms" data-i18n="experts.symptoms_label">Observed Leaf & Field Symptoms (Your Notes):</label>
+                            <textarea
+                                id="summarySymptoms"
+                                class="summary-textarea"
+                                rows="3"
+                                placeholder="e.g., Small dark circular spots with concentric rings on lower leaves, noticed 3 days ago after rain..."
+                                data-i18n-placeholder="experts.symptoms_placeholder"
+                            ></textarea>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px;">
+                        <button type="button" id="generateSummaryBtn" class="primary-button" data-i18n="experts.generate_btn">
+                            📝 Update Consultation Summary
+                        </button>
+                        <button type="button" id="copySummaryBtn" class="btn-copy-summary" data-i18n="experts.copy_btn">
+                            📋 Copy Summary for Expert
+                        </button>
+                    </div>
+
+                    <!-- Consultation Summary Preview Area -->
+                    <div class="summary-preview-box">
+                        <div class="preview-header">
+                            <h4 data-i18n="experts.preview_title">Consultation Summary Preview</h4>
+                            <span id="copyToast" class="copy-toast hidden" data-i18n="experts.copied_text">
+                                ✓ Consultation summary copied to clipboard! Ready to share.
+                            </span>
+                        </div>
+                        <pre id="consultationSummaryOutput" class="summary-output-pre"></pre>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🌱 <span>CropCure AI</span>
+            </div>
+
+            <p data-i18n="common.footer_desc">
+                AI-powered crop disease diagnosis and agricultural assistance for Indian farmers.
+            </p>
+
+            <div class="footer-links" aria-label="Footer Navigation">
+                <a href="index.html#home" data-i18n="nav.home">Home</a>
+                <span class="footer-dot">·</span>
+                <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Farmer Diagnosis</a>
+                <span class="footer-dot">·</span>
+                <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+                <span class="footer-dot">·</span>
+                <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+                <span class="footer-dot">·</span>
+                <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+                <span class="footer-dot">·</span>
+                <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            </div>
+
+            <p class="copyright">
+                <span data-i18n="common.copyright">© 2026 CropCure AI. Academic Project.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Translations & Application Scripts -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

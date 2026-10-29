@@ -1,0 +1,41 @@
+{
+    "description": "Clean unified classification dataset created from Datasets 1, 2 and 6",
+    "datasets_used": [
+        "dataset_1_plantvillage",
+        "dataset_2_crops_disease",
+        "dataset_6_web_sourced"
+    ],
+    "unified_class_count": 17,
+    "total_images": 12702,
+    "dataset_counts": {
+        "dataset_1_plantvillage": 11502,
+        "dataset_2_crops_disease": 50,
+        "dataset_6_web_sourced": 1150
+    },
+    "class_counts": {
+        "Potato_Early_Blight": 1000,
+        "Potato_Late_Blight": 1000,
+        "Potato_Healthy": 152,
+        "Tomato_Bacterial_Spot": 2200,
+        "Tomato_Early_Blight": 1091,
+        "Tomato_Late_Blight": 1986,
+        "Tomato_Leaf_Mold": 1027,
+        "Tomato_Septoria_Leaf_Spot": 1857,
+        "Tomato_Healthy": 1652,
+        "Corn_Gray_Leaf_Spot": 129,
+        "Corn_Leaf_Blight": 89,
+        "Corn_Leaf_Rust": 91,
+        "Apple_Healthy": 42,
+        "Apple_Rust": 140,
+        "Apple_Scab": 129,
+        "Potato_Leaf_Blight": 68,
+        "Potato_Leafroll_Virus": 49
+    },
+    "confirmed_duplicates_excluded": 150,
+    "unmapped_images_skipped": 10360,
+    "near_duplicate_candidate": {
+        "status": "NOT_REMOVED",
+        "reason": "Only a near-duplicate candidate; not a confirmed duplicate."
+    },
+    "raw_datasets_modified": false
+}

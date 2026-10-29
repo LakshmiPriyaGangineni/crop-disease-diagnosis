@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropCure AI | Government Agricultural Schemes & Subsidies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation Bar
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🌱 <span data-i18n="nav.brand">CropCure AI</span>
+        </div>
+
+        <nav>
+            <a href="index.html#home" data-i18n="nav.home">Home</a>
+            <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Diagnosis</a>
+            <a href="schemes.html" class="active-nav" data-i18n="nav.schemes">Government Schemes</a>
+            <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+            <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+            <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            <a href="index.html#chat" data-i18n="nav.chat">AI Assistant</a>
+            <a href="index.html#about" data-i18n="nav.about">About</a>
+        </nav>
+
+        <div class="lang-selector-wrapper">
+            <span class="globe-icon" aria-hidden="true">🌐</span>
+            <select id="languageSelector" class="language-dropdown" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="te">తెలుగు (Telugu)</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         Main Content - Schemes Page
+    ========================== -->
+
+    <main>
+
+        <section id="schemes" class="schemes-section">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="schemes.section_label">GOVERNMENT OF INDIA INITIATIVES</p>
+                <h2 data-i18n="schemes.title">Government Agricultural Schemes & Subsidies</h2>
+                <p data-i18n="schemes.description">
+                    Discover verified central agricultural schemes, financial assistance,
+                    crop insurance, micro-irrigation subsidies, and farming support programs for Indian farmers.
+                </p>
+            </div>
+
+            <div class="schemes-container">
+
+                <!-- Official Verification & Disclaimer Banner -->
+                <div class="schemes-banner">
+
+                    <div class="schemes-banner-header">
+                        <div class="schemes-banner-title">
+                            <span>🏛️</span>
+                            <span>Verified Official Portals Directory</span>
+                        </div>
+                        <span class="schemes-banner-badge">Curated & Verified · October 2026</span>
+                    </div>
+
+                    <p class="schemes-banner-text">
+                        This directory compiles authentic central government agricultural initiatives for educational and agricultural assistance.
+                        All scheme details, eligibility guidelines, benefits, and application pathways are curated directly from authorized Government of India portals.
+                    </p>
+
+                    <div class="schemes-official-portals">
+                        <strong>Official Central Portals:</strong>
+                        <a href="https://agriwelfare.gov.in/" target="_blank" rel="noopener noreferrer" class="portal-tag">
+                            DA&FW (agriwelfare.gov.in) ↗
+                        </a>
+                        <a href="https://pmfby.gov.in/" target="_blank" rel="noopener noreferrer" class="portal-tag">
+                            PMFBY Portal (pmfby.gov.in) ↗
+                        </a>
+                        <a href="https://pmkisan.gov.in/" target="_blank" rel="noopener noreferrer" class="portal-tag">
+                            PM-KISAN Portal (pmkisan.gov.in) ↗
+                        </a>
+                        <a href="https://mkisan.gov.in/" target="_blank" rel="noopener noreferrer" class="portal-tag">
+                            mKisan Portal (mkisan.gov.in) ↗
+                        </a>
+                    </div>
+
+                    <div class="schemes-helplines">
+                        <div class="helpline-item">
+                            📞 <strong>Kisan Call Centre (Toll-Free):</strong> 1800-180-1551 (6:00 AM – 10:00 PM, 22 Languages)
+                        </div>
+                        <div class="helpline-item">
+                            🛡️ <strong>PMFBY Crop Loss Helpline:</strong> 14447 (Report within 72 hrs)
+                        </div>
+                        <div class="helpline-item">
+                            💳 <strong>PM-KISAN Helpline:</strong> 155261 / 011-24300606
+                        </div>
+                    </div>
+
+                    <div style="font-size: 0.82rem; color: #6b7280; line-height: 1.5; border-top: 1px dashed #e5e7eb; padding-top: 10px;">
+                        ⚠️ <strong>Directory Limitations & Safety Notice:</strong> Information is curated from official Government of India sources as of October 2026 and is not dynamically scraped or updated live at runtime. Scheme criteria, seasonal cut-off dates, and state-wise allocations vary. CropCure AI does not collect application fees or sensitive personal/financial credentials. Always verify current notices and submit official applications directly on authorized government websites or at local CSC centers.
+                    </div>
+
+                </div>
+
+
+                <!-- Search and Filter Controls -->
+                <div class="schemes-controls-card">
+
+                    <div class="schemes-search-bar">
+                        <span class="search-icon-adornment">🔍</span>
+                        <input
+                            type="text"
+                            id="schemeSearchInput"
+                            class="schemes-search-input"
+                            placeholder="Search schemes by name, keyword (e.g., insurance, subsidy, loan, seeds, drip)..."
+                            data-i18n-placeholder="schemes.search_placeholder"
+                            aria-label="Search government agricultural schemes"
+                        />
+                        <button id="clearSearchBtn" class="clear-search-btn" type="button" style="display: none;">
+                            Clear
+                        </button>
+                    </div>
+
+                    <div class="category-chips-container" id="categoryChipsContainer">
+                        <button class="category-chip active" data-category="all" type="button">All Schemes</button>
+                        <button class="category-chip" data-category="financial_assistance" type="button">Financial Assistance & Credit</button>
+                        <button class="category-chip" data-category="crop_insurance" type="button">Crop Insurance & Risk Relief</button>
+                        <button class="category-chip" data-category="irrigation" type="button">Irrigation & Water Management</button>
+                        <button class="category-chip" data-category="farming_support" type="button">Farming Support & Mechanization</button>
+                        <button class="category-chip" data-category="organic_soil" type="button">Organic Farming & Soil Health</button>
+                    </div>
+
+                    <div class="schemes-status-bar">
+                        <div id="schemesCountText">
+                            Showing <span class="schemes-count-badge" id="schemesCountVal">10</span> verified government schemes
+                        </div>
+                        <div style="font-size: 0.82rem; color: #6b7280;">
+                            💡 Click on "Visit Official Portal" for direct government applications
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Schemes Cards Container -->
+                <div class="schemes-grid" id="schemesGridContainer">
+                    <!-- Populated dynamically via script.js from /schemes endpoint -->
+                    <div style="text-align: center; padding: 40px; color: #6b7280; grid-column: 1 / -1;">
+                        ⏳ Loading verified government schemes directory...
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🌱 <span>CropCure AI</span>
+            </div>
+
+            <p data-i18n="common.footer_desc">
+                AI-powered crop disease diagnosis and agricultural assistance for Indian farmers.
+            </p>
+
+            <div class="footer-links" aria-label="Footer Navigation">
+                <a href="index.html#home" data-i18n="nav.home">Home</a>
+                <span class="footer-dot">·</span>
+                <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Farmer Diagnosis</a>
+                <span class="footer-dot">·</span>
+                <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+                <span class="footer-dot">·</span>
+                <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+                <span class="footer-dot">·</span>
+                <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+                <span class="footer-dot">·</span>
+                <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            </div>
+
+            <p class="copyright">
+                <span data-i18n="common.copyright">© 2026 CropCure AI. Academic Project.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

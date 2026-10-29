@@ -1,0 +1,348 @@
+{
+    "group_breakdown": {
+        "plantvillage_dominated": {
+            "classes": [
+                "Potato_Early_Blight",
+                "Potato_Late_Blight",
+                "Potato_Healthy",
+                "Tomato_Bacterial_Spot",
+                "Tomato_Early_Blight",
+                "Tomato_Late_Blight",
+                "Tomato_Leaf_Mold",
+                "Tomato_Septoria_Leaf_Spot",
+                "Tomato_Healthy"
+            ],
+            "test_images": 1793,
+            "correct": 1582,
+            "accuracy": 0.88232,
+            "accuracy_pct": 88.23
+        },
+        "web_sourced_only": {
+            "classes": [
+                "Corn_Leaf_Blight",
+                "Corn_Leaf_Rust",
+                "Apple_Healthy",
+                "Apple_Rust",
+                "Apple_Scab",
+                "Potato_Leaf_Blight",
+                "Potato_Leafroll_Virus"
+            ],
+            "test_images": 91,
+            "correct": 28,
+            "accuracy": 0.307692,
+            "accuracy_pct": 30.77
+        },
+        "hybrid": {
+            "classes": [
+                "Corn_Gray_Leaf_Spot"
+            ],
+            "test_images": 19,
+            "correct": 6,
+            "accuracy": 0.315789,
+            "accuracy_pct": 31.58
+        }
+    },
+    "total_misclassifications": 287,
+    "misclassifications_sample": [
+        {
+            "image_path": "data\\unified_test\\Apple_Healthy\\dataset_6_web_sourced__000002__107.jpg",
+            "true_class": "Apple_Healthy",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.1569
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Healthy\\dataset_6_web_sourced__000008__124.jpg",
+            "true_class": "Apple_Healthy",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.289
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Healthy\\dataset_6_web_sourced__000016__159.jpg",
+            "true_class": "Apple_Healthy",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.382
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Healthy\\dataset_6_web_sourced__000018__42.jpg",
+            "true_class": "Apple_Healthy",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2227
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000058__134.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Tomato_Bacterial_Spot",
+            "confidence": 0.1247
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000071__150.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Tomato_Late_Blight",
+            "confidence": 0.2384
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000104__49.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Tomato_Late_Blight",
+            "confidence": 0.8292
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000118__67.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Corn_Leaf_Blight",
+            "confidence": 0.1799
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000147__97.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.1897
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Rust\\dataset_6_web_sourced__000995__19.jpg",
+            "true_class": "Apple_Rust",
+            "predicted_class": "Apple_Scab",
+            "confidence": 0.2672
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000150__101.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2049
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000152__103.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.2527
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000157__108.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Potato_Leaf_Blight",
+            "confidence": 0.1757
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000164__118.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Late_Blight",
+            "confidence": 0.8617
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000170__127.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Septoria_Leaf_Spot",
+            "confidence": 0.2501
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000180__146.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Corn_Leaf_Rust",
+            "confidence": 0.1494
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000190__158.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2111
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000192__162.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Corn_Leaf_Rust",
+            "confidence": 0.2969
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000197__173.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.3044
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000215__30.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Healthy",
+            "confidence": 0.1985
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000220__37.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Corn_Leaf_Blight",
+            "confidence": 0.1173
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000222__41.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2297
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000225__46.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Healthy",
+            "confidence": 0.3686
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000229__51.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Leaf_Mold",
+            "confidence": 0.1189
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000252__93.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Leaf_Mold",
+            "confidence": 0.1354
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__000254__95.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Bacterial_Spot",
+            "confidence": 0.1417
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__001010__11.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Tomato_Late_Blight",
+            "confidence": 0.1422
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__001014__16.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Healthy",
+            "confidence": 0.2747
+        },
+        {
+            "image_path": "data\\unified_test\\Apple_Scab\\dataset_6_web_sourced__001017__2.jpg",
+            "true_class": "Apple_Scab",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2025
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_2_crops_disease__000001__image (107).JPG",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.1898
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_2_crops_disease__000037__image (407).JPG",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Corn_Leaf_Rust",
+            "confidence": 0.295
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000258__14.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.1303
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000261__18.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Apple_Scab",
+            "confidence": 0.16
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000265__25.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Leaf_Mold",
+            "confidence": 0.1523
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000279__39.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.314
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000301__68.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Septoria_Leaf_Spot",
+            "confidence": 0.1301
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000305__73.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.2084
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000313__85.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.1428
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__000324__99.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Septoria_Leaf_Spot",
+            "confidence": 0.17
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__001030__1.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Late_Blight",
+            "confidence": 0.1595
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__001034__2.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Healthy",
+            "confidence": 0.3544
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Gray_Leaf_Spot\\dataset_6_web_sourced__001039__8.jpg",
+            "true_class": "Corn_Gray_Leaf_Spot",
+            "predicted_class": "Tomato_Healthy",
+            "confidence": 0.1715
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000326__14.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.1088
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000329__17.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Corn_Leaf_Rust",
+            "confidence": 0.1257
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000334__22.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Apple_Scab",
+            "confidence": 0.1394
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000343__31.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Apple_Rust",
+            "confidence": 0.204
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000344__32.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Corn_Leaf_Rust",
+            "confidence": 0.2092
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000374__69.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Tomato_Bacterial_Spot",
+            "confidence": 0.2686
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000382__77.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.6877
+        },
+        {
+            "image_path": "data\\unified_test\\Corn_Leaf_Blight\\dataset_6_web_sourced__000384__80.jpg",
+            "true_class": "Corn_Leaf_Blight",
+            "predicted_class": "Tomato_Early_Blight",
+            "confidence": 0.2966
+        }
+    ]
+}

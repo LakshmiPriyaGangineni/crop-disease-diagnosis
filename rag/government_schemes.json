@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "title": "Verified Indian Government Agricultural Schemes Directory",
+    "curated_as_of": "October 2026",
+    "source_authority": "Ministry of Agriculture & Farmers Welfare, Government of India",
+    "primary_portal": "https://agriwelfare.gov.in/",
+    "disclaimer": "This information is curated from official Government of India portals for educational and agricultural assistance. Guidelines, subsidy allocations, state quotas, and eligibility criteria are subject to periodic administrative updates and state-specific variations. Farmers and users must verify real-time terms and submit applications directly on the respective official government portals. CropCure AI does not collect application fees or sensitive financial information.",
+    "total_schemes": 10
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All Schemes",
+      "description": "Browse all verified central agricultural initiatives"
+    },
+    {
+      "id": "financial_assistance",
+      "label": "Financial Assistance & Credit",
+      "description": "Direct income support, low-interest credit cards, and capital loans"
+    },
+    {
+      "id": "crop_insurance",
+      "label": "Crop Insurance & Risk Relief",
+      "description": "Protection against crop loss from drought, flood, pests, and natural disasters"
+    },
+    {
+      "id": "irrigation",
+      "label": "Irrigation & Water Management",
+      "description": "Subsidies for drip, sprinkler micro-irrigation, and water efficiency"
+    },
+    {
+      "id": "farming_support",
+      "label": "Farming Support & Mechanization",
+      "description": "Machinery subsidies, mandi market access, and crop SMS advisories"
+    },
+    {
+      "id": "organic_soil",
+      "label": "Organic Farming & Soil Health",
+      "description": "Soil nutrient testing cards and financial aid for organic farming clusters"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "hindi_name": "प्रधानमंत्री किसान सम्मान निधि",
+      "category": "financial_assistance",
+      "category_label": "Financial Assistance & Credit",
+      "purpose": "Provides direct financial support to landholding farmer families across India to supplement expenses for farm inputs (seeds, fertilizers) and household agricultural needs.",
+      "benefits": "₹6,000 per year provided as direct income support, deposited in three equal installments of ₹2,000 every 4 months directly into the farmer's Aadhaar-seeded bank account through DBT.",
+      "eligibility": "All landholding farmer families possessing cultivable agricultural land registered in land records. Excludes institutional landholders and high-income tax-paying households. Mandatory Aadhaar and completed e-KYC are required.",
+      "application_steps": [
+        "Visit the official portal https://pmkisan.gov.in/ or visit your nearest Common Service Centre (CSC) / District Agriculture Office.",
+        "Click on 'Farmers Corner' and select 'New Farmer Registration'.",
+        "Enter your Aadhaar number, mobile number, and select your state/district.",
+        "Provide your land ownership details (Khata number, Khasra number, land area) and bank account details.",
+        "Submit the application and complete the mandatory e-KYC verification using Aadhaar OTP or biometric scan at a CSC."
+      ],
+      "official_portal": "PM-KISAN Portal",
+      "official_link": "https://pmkisan.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["pm kisan", "income support", "cash", "dbt", "financial aid", "installment", "seeds", "fertilizer"]
+    },
+    {
+      "id": "pmfby",
+      "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+      "hindi_name": "प्रधानमंत्री फसल बीमा योजना",
+      "category": "crop_insurance",
+      "category_label": "Crop Insurance & Risk Relief",
+      "purpose": "Provides comprehensive insurance coverage and financial security to farmers against yield loss or damage caused by non-preventable natural risks, such as drought, floods, unseasonal rain, pests, and plant diseases.",
+      "benefits": "Heavily subsidized premium rates for farmers: maximum 2% premium for Kharif food/oilseed crops, 1.5% for Rabi food/oilseed crops, and 5% for commercial/horticultural crops. The remainder is co-funded by Central and State Governments. Full claim payout up to sum insured for verified crop loss.",
+      "eligibility": "All farmers growing notified crops in notified areas, including sharecroppers, tenant farmers, and loanee/non-loanee farmers. Scheme is voluntary for all farmers.",
+      "application_steps": [
+        "Apply online via https://pmfby.gov.in/, through the Crop Insurance Mobile App, or in person at your nearest bank branch, Primary Agricultural Credit Society (PACS), or CSC.",
+        "Select 'Farmer Corner' and register or log in with your mobile number.",
+        "Enter sowing details, crop name, survey/khasra number, and insurance coverage year/season.",
+        "Upload required documents: Land Record (RoR/7-12/RTC), Sowing Certificate/declaration, and Bank Passbook.",
+        "Pay the nominal farmer premium share before the seasonal cut-off deadline and save the policy receipt.",
+        "In the event of localized crop damage, report the loss within 72 hours via the PMFBY portal or toll-free helpline 14447."
+      ],
+      "official_portal": "PMFBY Portal",
+      "official_link": "https://pmfby.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["pmfby", "crop insurance", "fasal bima", "crop damage", "loss", "drought", "flood", "hailstorm", "pest attack"]
+    },
+    {
+      "id": "kcc",
+      "name": "KCC (Kisan Credit Card)",
+      "hindi_name": "किसान क्रेडिट कार्ड योजना",
+      "category": "financial_assistance",
+      "category_label": "Financial Assistance & Credit",
+      "purpose": "Ensures affordable, flexible, and timely institutional credit to farmers for crop cultivation costs, post-harvest expenses, maintenance of agricultural machinery, and dairy/animal husbandry/fishery needs.",
+      "benefits": "Short-term credit limit up to ₹3 lakh at a concessional interest rate of 7% per annum. Farmers who repay promptly receive a 3% prompt repayment incentive, reducing the effective annual interest rate to just 4%. Collateral-free loan limit up to ₹1.6 lakh.",
+      "eligibility": "Individual or joint cultivator farmers, tenant farmers, sharecroppers, and Self Help Groups (SHGs). Also extended to animal husbandry, poultry, and fishery farmers.",
+      "application_steps": [
+        "Download the simplified one-page KCC application form from https://agriwelfare.gov.in/ or https://pmkisan.gov.in/.",
+        "Fill in personal details, land records, crop pattern, and existing loan declarations.",
+        "Submit the form along with identity proof, residence proof, land document copy, and passport photograph to any commercial bank, Regional Rural Bank (RRB), or Cooperative Bank branch.",
+        "Banks process and issue the Kisan Credit Card within 14 working days of receiving completed documentation."
+      ],
+      "official_portal": "Department of Agriculture & Farmers Welfare",
+      "official_link": "https://agriwelfare.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare / RBI / NABARD",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["kcc", "kisan credit card", "loan", "low interest", "credit", "working capital", "crop loan", "bank"]
+    },
+    {
+      "id": "pmksy-pdmc",
+      "name": "PMKSY - Per Drop More Crop (PDMC)",
+      "hindi_name": "प्रधानमंत्री कृषि सिंचाई योजना - प्रति बूंद अधिक फसल",
+      "category": "irrigation",
+      "category_label": "Irrigation & Water Management",
+      "purpose": "Focuses on maximizing water-use efficiency at the farm level through micro-irrigation systems (drip and sprinkler irrigation) and micro-water harvesting structures.",
+      "benefits": "Financial assistance/subsidy of up to 55% of the benchmark equipment cost for small and marginal farmers, and up to 45% for other farmers for installing approved drip or sprinkler irrigation systems. Substantially reduces water usage and power bills while improving crop yields.",
+      "eligibility": "All landholding farmers. Small and marginal farmers, SC/ST, and women farmers are given priority. Applicable for horticultural crops, vegetables, fruits, sugarcane, and field crops.",
+      "application_steps": [
+        "Visit the official portal https://pmksy.gov.in/ or register on your state-specific horticulture/agriculture department DBT portal.",
+        "Submit land ownership proof (RoR / 7/12 / RTC), water source certificate (borewell/canal/well connection), and Aadhaar details.",
+        "The agriculture/horticulture department conducts pre-installation field verification and approves system layout.",
+        "Installation is carried out by an authorized empanelled micro-irrigation manufacturer/vendor.",
+        "Following joint physical inspection and geotagging, the approved subsidy is released directly via DBT."
+      ],
+      "official_portal": "PMKSY Portal",
+      "official_link": "https://pmksy.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["pmksy", "irrigation", "drip irrigation", "sprinkler", "water saving", "micro irrigation", "per drop more crop"]
+    },
+    {
+      "id": "mkisan",
+      "name": "mKisan SMS Portal for Farmers",
+      "hindi_name": "एम-किसान पोर्टल (किसानों के लिए एसएमएस सेवा)",
+      "category": "farming_support",
+      "category_label": "Farming Support & Mechanization",
+      "purpose": "Delivers targeted agricultural advisories, timely weather alerts, pest and disease outbreak warnings, market mandi rates, and crop management practices directly to farmers' mobile phones in their regional languages.",
+      "benefits": "100% free SMS push service providing localized technical guidance and urgent weather/pest warnings from agricultural scientists, ICAR institutions, and state agricultural universities tailored to your specific crop and district.",
+      "eligibility": "Open to all Indian farmers with an active basic mobile phone or smartphone.",
+      "application_steps": [
+        "Visit https://mkisan.gov.in/ or call the Kisan Call Centre at toll-free number 1800-180-1551.",
+        "Select 'Farmer Registration' on the portal.",
+        "Enter your mobile phone number, name, state, district, sub-district, and village.",
+        "Select your preferred language, crops grown, and livestock held.",
+        "Verify using the OTP received on your mobile phone to activate instant agricultural advisories."
+      ],
+      "official_portal": "mKisan Portal",
+      "official_link": "https://mkisan.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["mkisan", "sms", "advisory", "weather", "pest warning", "mandi price", "mobile", "alerts"]
+    },
+    {
+      "id": "soil-health-card",
+      "name": "Soil Health Card (SHC) Scheme",
+      "hindi_name": "मृदा स्वास्थ्य कार्ड योजना",
+      "category": "organic_soil",
+      "category_label": "Organic Farming & Soil Health",
+      "purpose": "Assesses the nutrient status of agricultural soil across 12 critical chemical and physical indicators and provides customized crop-specific fertilizer and micronutrient recommendations to prevent soil degradation and reduce input expenses.",
+      "benefits": "Provides farmers with a comprehensive printed/digital report card every 3 years containing soil ratings across 12 parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC) alongside tailored fertilizer, bio-fertilizer, and soil amendment dosage guidelines.",
+      "eligibility": "All farmers possessing or cultivating agricultural land across all Indian states and Union Territories.",
+      "application_steps": [
+        "Soil samples are collected from farmers' fields by state agriculture department officers or farmers can deposit soil samples at the nearest Soil Testing Laboratory (STL) or Krishi Vigyan Kendra (KVK).",
+        "Samples are analyzed in certified testing laboratories for macro and micro-nutrients.",
+        "Test results and recommendations are uploaded to https://soilhealth.dac.gov.in/.",
+        "Farmers can view and download their Soil Health Card online by selecting their State, District, Sub-district, Village, and Farmer Name."
+      ],
+      "official_portal": "Soil Health Card Portal",
+      "official_link": "https://soilhealth.dac.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["soil health", "soil health card", "fertilizer", "soil test", "nitrogen", "phosphorus", "potash", "micronutrients", "kvk"]
+    },
+    {
+      "id": "enam",
+      "name": "e-NAM (National Agriculture Market)",
+      "hindi_name": "ई-नाम (राष्ट्रीय कृषि बाजार)",
+      "category": "farming_support",
+      "category_label": "Farming Support & Mechanization",
+      "purpose": "A pan-India electronic trading portal that networks existing physical APMC mandis to create a unified national market for agricultural commodities with transparent price discovery and online payment.",
+      "benefits": "Free farmer access to competitive buyers across India, eliminating local intermediary cartels, transparent electronic weighing, automated price bidding, and direct online payment settlements directly into the farmer's bank account.",
+      "eligibility": "Any individual farmer, Farmer Producer Organization (FPO), cooperative, or licensed trader with agricultural produce to sell.",
+      "application_steps": [
+        "Visit https://enam.gov.in/ or download the e-NAM Mobile App.",
+        "Register as a 'Farmer' by entering your Aadhaar number, bank account details, and mobile number.",
+        "Bring your harvested produce to any nearby e-NAM integrated APMC mandi.",
+        "Generate an electronic gate pass (e-lot); mandi assaying lab tests the produce quality and enters grade parameters.",
+        "Traders across the country bid electronically; once you accept the winning bid, payment is directly credited to your bank account."
+      ],
+      "official_portal": "e-NAM National Agriculture Market",
+      "official_link": "https://enam.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["enam", "mandi", "apmc", "market", "crop selling", "price discovery", "online auction", "fair price"]
+    },
+    {
+      "id": "smam",
+      "name": "SMAM (Sub-Mission on Agricultural Mechanization)",
+      "hindi_name": "कृषि यंत्रीकरण पर उप-मिशन",
+      "category": "farming_support",
+      "category_label": "Farming Support & Mechanization",
+      "purpose": "Promotes modern farm mechanization among small and marginal farmers by subsidizing modern farm machinery (tractors, rotavators, sprayers, harvesters) and establishing Custom Hiring Centres (CHCs).",
+      "benefits": "Subsidies ranging from 40% to 50% on the purchase cost of approved agricultural implements for individual farmers (up to 50% for SC, ST, small/marginal, and women farmers). Up to 80% project assistance for establishing Custom Hiring Centres by FPOs and cooperatives.",
+      "eligibility": "Small, marginal, SC/ST, and women farmers have priority. Registered farmers, farmer groups, cooperatives, and FPOs are eligible.",
+      "application_steps": [
+        "Visit the Direct Benefit Transfer in Agricultural Mechanization portal at https://agrimachinery.nic.in/.",
+        "Click on 'Registration' -> 'Farmer' and enter your Aadhaar and mobile number.",
+        "Select your state, district, block, and land holding category.",
+        "Choose the agricultural machinery/equipment and empanelled manufacturer/dealer from the approved portal list.",
+        "Upload Aadhaar card, land record document, bank passbook, and caste certificate (if applicable).",
+        "Following administrative approval and machinery purchase, physical inspection is carried out, and the subsidy is remitted via DBT."
+      ],
+      "official_portal": "Farmech DBT Portal",
+      "official_link": "https://agrimachinery.nic.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["smam", "mechanization", "tractor", "subsidy", "farm machinery", "custom hiring", "sprayer", "tiller", "equipment"]
+    },
+    {
+      "id": "pkvy",
+      "name": "PKVY (Paramparagat Krishi Vikas Yojana)",
+      "hindi_name": "परम्परागत कृषि विकास योजना",
+      "category": "organic_soil",
+      "category_label": "Organic Farming & Soil Health",
+      "purpose": "Promotes chemical-free organic farming through a cluster-based approach and Participatory Guarantee System (PGS) certification, revitalizing soil health and enabling farmers to earn premium market prices.",
+      "benefits": "Financial assistance of ₹50,000 per hectare for 3 years. Of this amount, ₹31,000 per hectare is directly disbursed to the farmer via DBT for organic inputs (seeds, bio-fertilizers, bio-pesticides, vermicompost, botanical extracts), with the remainder supporting certification, cluster capacity building, and value addition.",
+      "eligibility": "Farmers willing to form organic farming clusters of 20 or more farmers holding a total of 50 acres (20 hectares) of cultivable land in a contiguous area.",
+      "application_steps": [
+        "Form a cluster of local farmers or express interest to your District Agriculture Officer or Regional Council under PGS-India.",
+        "Register the cluster on the PGS-India portal https://pgsindia-ncof.gov.in/ through an authorized Regional Council.",
+        "Adopt organic cultivation practices following standard organic protocol and avoid chemical fertilizers/pesticides.",
+        "Undergo annual peer reviews and cluster verification to receive PGS-Green and PGS-India Organic certifications.",
+        "Receive scheduled DBT installments for organic inputs directly into your bank account."
+      ],
+      "official_portal": "PGS-India Organic Portal / DA&FW",
+      "official_link": "https://pgsindia-ncof.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["pkvy", "organic farming", "jaivik kheti", "chemical free", "bio fertilizer", "vermicompost", "soil fertility", "pgs"]
+    },
+    {
+      "id": "aif",
+      "name": "AIF (Agriculture Infrastructure Fund)",
+      "hindi_name": "कृषि अवसंरचना कोष",
+      "category": "financial_assistance",
+      "category_label": "Financial Assistance & Credit",
+      "purpose": "Provides medium-to-long term debt financing for developing post-harvest management infrastructure and community farming assets like warehouses, cold storages, sorting/grading units, and primary processing centres.",
+      "benefits": "Interest subvention of 3% per annum on loans up to ₹2 crore for a maximum tenure of 7 years. In addition, credit guarantee coverage under the CGTMSE scheme is provided for loans up to ₹2 crore with fee borne by the government.",
+      "eligibility": "Individual farmers, Primary Agricultural Credit Societies (PACS), Marketing Cooperative Societies, FPOs, SHGs, Joint Liability Groups, and agricultural entrepreneurs.",
+      "application_steps": [
+        "Visit the official portal https://agriinfra.dac.gov.in/.",
+        "Register as a borrower and submit a basic project proposal outlining the proposed post-harvest or processing facility.",
+        "Select your preferred lending bank/financial institution from the portal's participating bank list.",
+        "The project is reviewed for eligibility by the Department of Agriculture & Farmers Welfare and forwarded to the chosen bank.",
+        "Upon bank loan sanction and project expenditure, the 3% interest subvention is automatically credited directly to the loan account."
+      ],
+      "official_portal": "Agriculture Infrastructure Fund Portal",
+      "official_link": "https://agriinfra.dac.gov.in/",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "last_verified": "October 2026",
+      "verification_status": "Verified Official Central Scheme",
+      "tags": ["aif", "infrastructure", "cold storage", "warehouse", "post harvest", "processing", "interest subvention", "loan"]
+    }
+  ]
+}

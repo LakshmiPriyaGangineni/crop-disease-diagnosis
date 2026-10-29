@@ -1,0 +1,63 @@
+{
+    "Potato_Early_Blight": {
+        "dataset_1_plantvillage": "Potato___Early_blight",
+        "dataset_2_crops_disease": "Potato___Early_Blight"
+    },
+    "Potato_Late_Blight": {
+        "dataset_1_plantvillage": "Potato___Late_blight",
+        "dataset_2_crops_disease": "Potato___Late_Blight"
+    },
+    "Potato_Healthy": {
+        "dataset_1_plantvillage": "Potato___healthy",
+        "dataset_2_crops_disease": "Potato___Healthy"
+    },
+    "Tomato_Bacterial_Spot": {
+        "dataset_1_plantvillage": "Tomato_Bacterial_spot",
+        "dataset_6_web_sourced": "tomato leaf bacterial spot"
+    },
+    "Tomato_Early_Blight": {
+        "dataset_1_plantvillage": "Tomato_Early_blight",
+        "dataset_6_web_sourced": "tomato leaf early blight"
+    },
+    "Tomato_Late_Blight": {
+        "dataset_1_plantvillage": "Tomato_Late_blight",
+        "dataset_6_web_sourced": "tomato leaf late blight"
+    },
+    "Tomato_Leaf_Mold": {
+        "dataset_1_plantvillage": "Tomato_Leaf_Mold",
+        "dataset_6_web_sourced": "tomato leaf mold"
+    },
+    "Tomato_Septoria_Leaf_Spot": {
+        "dataset_1_plantvillage": "Tomato_Septoria_leaf_spot",
+        "dataset_6_web_sourced": "tomato septoria leaf spot"
+    },
+    "Tomato_Healthy": {
+        "dataset_1_plantvillage": "Tomato_healthy",
+        "dataset_6_web_sourced": "tomato leaf healthy"
+    },
+    "Corn_Gray_Leaf_Spot": {
+        "dataset_2_crops_disease": "Corn___Gray_Leaf_Spot",
+        "dataset_6_web_sourced": "corn gray leaf spot"
+    },
+    "Corn_Leaf_Blight": {
+        "dataset_6_web_sourced": "corn leaf blight"
+    },
+    "Corn_Leaf_Rust": {
+        "dataset_6_web_sourced": "corn leaf rust"
+    },
+    "Apple_Healthy": {
+        "dataset_6_web_sourced": "apple leaf healthy"
+    },
+    "Apple_Rust": {
+        "dataset_6_web_sourced": "apple leaf rust"
+    },
+    "Apple_Scab": {
+        "dataset_6_web_sourced": "apple leaf scab"
+    },
+    "Potato_Leaf_Blight": {
+        "dataset_6_web_sourced": "potato leaf blight"
+    },
+    "Potato_Leafroll_Virus": {
+        "dataset_6_web_sourced": "potato leafroll virus"
+    }
+}

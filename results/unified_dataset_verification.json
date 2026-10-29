@@ -1,0 +1,277 @@
+{
+    "expected_class_count": 17,
+    "actual_class_count": 17,
+    "missing_classes": [],
+    "unexpected_classes": [],
+    "total_images": 12702,
+    "valid_images": 12702,
+    "invalid_image_count": 0,
+    "invalid_images": [],
+    "duplicate_groups": 60,
+    "duplicate_file_count": 123,
+    "duplicate_groups_details": [
+        [
+            "Apple_Healthy/dataset_6_web_sourced__000979__4.jpg",
+            "Apple_Scab/dataset_6_web_sourced__001012__13.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000047__117.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000199__177.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000055__129.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000256__99.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000074__153.jpg",
+            "Apple_Rust/dataset_6_web_sourced__000078__158.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000080__161.jpg",
+            "Apple_Rust/dataset_6_web_sourced__000089__30.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000081__162.jpg",
+            "Apple_Rust/dataset_6_web_sourced__000144__94.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000103__46.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000241__74.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000113__61.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000237__65.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000123__72.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000213__28.jpg"
+        ],
+        [
+            "Apple_Rust/dataset_6_web_sourced__000131__80.jpg",
+            "Apple_Scab/dataset_6_web_sourced__000187__155.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000269__29.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000402__99.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000285__45.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000353__44.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000292__55.jpg",
+            "Corn_Leaf_Rust/dataset_6_web_sourced__000475__89.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000295__62.jpg",
+            "Corn_Leaf_Rust/dataset_6_web_sourced__000434__45.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000299__66.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000383__78.jpg",
+            "Corn_Leaf_Rust/dataset_6_web_sourced__000404__12.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000312__83.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000386__82.jpg"
+        ],
+        [
+            "Corn_Gray_Leaf_Spot/dataset_6_web_sourced__000319__91.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000379__74.jpg"
+        ],
+        [
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000327__15.jpg",
+            "Corn_Leaf_Blight/dataset_6_web_sourced__000355__46.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000489__18.jpg",
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000520__63.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000498__30.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000795__39.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000515__58.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000802__46.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000519__62.jpg",
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000524__71.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000523__69.jpg",
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000533__87.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000525__72.jpg",
+            "Tomato_Early_Blight/dataset_6_web_sourced__000690__68.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__000539__98.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000832__95.jpg"
+        ],
+        [
+            "Potato_Leaf_Blight/dataset_6_web_sourced__001065__12.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000815__72.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000819__77.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000589__26.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__001140__1.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000597__34.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000932__51.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000615__63.jpg",
+            "Tomato_Healthy/dataset_6_web_sourced__000733__31.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000616__64.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000806__53.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000617__65.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000963__87.jpg"
+        ],
+        [
+            "Tomato_Bacterial_Spot/dataset_6_web_sourced__000618__66.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000949__71.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000646__20.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000920__38.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000657__33.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000797__41.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000662__40.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000910__26.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000681__59.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000952__76.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000682__60.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__001123__3.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000688__66.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000948__70.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000698__76.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000812__67.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000699__77.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__001122__2.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000708__87.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000943__64.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__000710__89.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000828__89.jpg"
+        ],
+        [
+            "Tomato_Early_Blight/dataset_6_web_sourced__001101__3.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000817__75.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__000822__81.jpg"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__005314__068e324c-faf6-40d6-8f83-578907f1cac5___GH_HL Leaf 466.1.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__005616__34c81c57-e1fa-49dd-a49d-34fe8b2385fe___GH_HL Leaf 466.1.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__005449__1af0bfe1-4bcf-4b8b-be66-5d0953eb647e___GH_HL Leaf 482.2.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__006584__cfd491d6-4af5-4728-8f0e-0d330a07174a___GH_HL Leaf 482.2.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__005622__37203047-d8ba-43f7-b31e-d496c41c569c___GH_HL Leaf 389.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__005799__505465db-407b-4e0a-8110-7479dad5261c___GH_HL Leaf 389.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__005626__37aad83b-7ff8-4b35-b3ed-fb8e0f54910b___GH_HL Leaf 342.1.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__006741__e786ac89-29fe-47e3-b49e-b9a9ee7edd9d___GH_HL Leaf 342.1.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__005738__488feb1c-4b9f-44e7-8aa6-4103a9601f5f___GH_HL Leaf 434.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__006323__a5de43e7-fc2f-4a14-a8e6-c0f2f94c84f1___GH_HL Leaf 434.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_1_plantvillage__006238__9662364c-aaba-45e3-b907-10792d60578c___GH_HL Leaf 220.JPG",
+            "Tomato_Healthy/dataset_1_plantvillage__006599__d2ce7896-6fa4-45e6-96c5-d162da0e3e1c___GH_HL Leaf 220.JPG"
+        ],
+        [
+            "Tomato_Healthy/dataset_6_web_sourced__000723__17.jpg",
+            "Tomato_Leaf_Mold/dataset_6_web_sourced__000878__66.jpg"
+        ],
+        [
+            "Tomato_Healthy/dataset_6_web_sourced__000769__99.jpg",
+            "Tomato_Septoria_Leaf_Spot/dataset_6_web_sourced__000916__33.jpg"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007091__1a69b38b-c4eb-42c4-9584-bcb14fb8db0c___GHLB2 Leaf 9011.JPG",
+            "Tomato_Late_Blight/dataset_1_plantvillage__007224__2c47b891-3c97-48f1-a2cc-5aa53d3a1148___GHLB2 Leaf 9011.JPG"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007346__3fae9c64-18f0-4a67-9f97-554248bb1bed___GHLB_PS Leaf 24 Day 16.jpg",
+            "Tomato_Late_Blight/dataset_1_plantvillage__007573__5de6da85-f8c4-48c4-b463-3e6bd78884cc___GHLB_PS Leaf 24 Day 16.jpg"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007426__48c55974-9fe9-4f4b-94f7-c8cd127d1e05___GHLB_PS Leaf 23.7 Day 13.jpg",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008272__bd4f09bd-ee85-4ab1-bce0-8cde3fdd7f1b___GHLB_PS Leaf 23.7 Day 13.jpg"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007518__5688ea99-c949-41d0-bbab-9cbf0ffb8bcd___GHLB2 Leaf 8677.JPG",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008567__e20107e7-137f-400e-817f-5dc4c58e5d70___GHLB2 Leaf 8677.JPG"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007582__5f21282c-e2ef-4c4a-ace1-b5701fe7effc___GHLB2 Leaf 8999.JPG",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008601__e5d707cd-077c-43af-bda9-6138e516ff51___GHLB2 Leaf 8999.JPG"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__007857__861d8b00-57a4-46b0-b51a-09d102dbe119___GHLB_PS Leaf 24 Day 13.jpg",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008491__d82b634e-9a19-497b-b698-aaf100d622a1___GHLB_PS Leaf 24 Day 13.jpg"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__008001__98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008302__c1775bad-7c02-41fb-bb7d-f8df91d60ac3___GHLB_PS Leaf 23.5 Day 13.jpg"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_1_plantvillage__008479__d6e6897a-5083-4914-9903-804c5684a956___GHLB2 Leaf 102.JPG",
+            "Tomato_Late_Blight/dataset_1_plantvillage__008490__d81682aa-746b-4e07-af2b-52ebb6f4c017___GHLB2 Leaf 102.JPG"
+        ],
+        [
+            "Tomato_Late_Blight/dataset_6_web_sourced__000813__69.jpg",
+            "Tomato_Late_Blight/dataset_6_web_sourced__001127__8.jpg"
+        ]
+    ],
+    "class_counts": {
+        "Apple_Healthy": 42,
+        "Apple_Rust": 140,
+        "Apple_Scab": 129,
+        "Corn_Gray_Leaf_Spot": 129,
+        "Corn_Leaf_Blight": 89,
+        "Corn_Leaf_Rust": 91,
+        "Potato_Early_Blight": 1000,
+        "Potato_Healthy": 152,
+        "Potato_Late_Blight": 1000,
+        "Potato_Leaf_Blight": 68,
+        "Potato_Leafroll_Virus": 49,
+        "Tomato_Bacterial_Spot": 2200,
+        "Tomato_Early_Blight": 1091,
+        "Tomato_Healthy": 1652,
+        "Tomato_Late_Blight": 1986,
+        "Tomato_Leaf_Mold": 1027,
+        "Tomato_Septoria_Leaf_Spot": 1857
+    },
+    "verification_status": false
+}

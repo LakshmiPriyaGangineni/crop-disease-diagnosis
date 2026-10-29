@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropCure AI | Nearby Agricultural Input Shops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation Bar
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🌱 <span data-i18n="nav.brand">CropCure AI</span>
+        </div>
+
+        <nav>
+            <a href="index.html#home" data-i18n="nav.home">Home</a>
+            <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Diagnosis</a>
+            <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+            <a href="shops.html" class="active-nav" data-i18n="nav.shops">Nearby Shops</a>
+            <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+            <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            <a href="index.html#chat" data-i18n="nav.chat">AI Assistant</a>
+            <a href="index.html#about" data-i18n="nav.about">About</a>
+        </nav>
+
+        <div class="lang-selector-wrapper">
+            <span class="globe-icon" aria-hidden="true">🌐</span>
+            <select id="languageSelector" class="language-dropdown" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="te">తెలుగు (Telugu)</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         Main Content - Nearby Shops Page
+    ========================== -->
+
+    <main>
+
+        <section id="shops" class="shops-section">
+
+            <div class="section-heading">
+                <p class="section-label" data-i18n="shops.section_label">LOCAL AGRICULTURAL SUPPLIES</p>
+                <h2 data-i18n="shops.title">Nearby Agricultural Input Shops</h2>
+                <p data-i18n="shops.description">
+                    Locate certified seed stores, fertilizer retailers, crop protection dealers,
+                    and agricultural equipment suppliers in your area.
+                </p>
+            </div>
+
+            <div class="shops-container">
+
+                <!-- Transparency & Safety Advisory Banner -->
+                <div class="shops-banner">
+
+                    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                        <div class="shops-banner-title">
+                            <span>🗺️</span>
+                            <span>External Maps Service & Agricultural Safety Notice</span>
+                        </div>
+                        <span class="shops-banner-badge">Verified Mapping Links</span>
+                    </div>
+
+                    <p class="shops-banner-text">
+                        CropCure AI generates verified search queries that open directly in established external mapping services
+                        (<strong>Google Maps</strong> and <strong>OpenStreetMap</strong>). Real-time shop locations, phone numbers,
+                        customer reviews, and driving directions are hosted directly on the external map service.
+                    </p>
+
+                    <div class="shops-safety-notes">
+                        <div class="safety-note-item">
+                            🛡️ <strong>Safety Advisory:</strong> Never purchase or apply chemical pesticides based solely on automated visual disease predictions. Always verify diagnosis with a local Krishi Vigyan Kendra (KVK) scientist or State Agriculture Extension Officer.
+                        </div>
+                        <div class="safety-note-item">
+                            🔒 <strong>Privacy First:</strong> Device location permission is strictly optional. You can find shops simply by typing your city, town, or 6-digit postal PIN code. CropCure AI does not store your location data.
+                        </div>
+                        <div class="safety-note-item">
+                            📦 <strong>Genuine Stock:</strong> CropCure AI does not fabricate private shop inventories or prices. Confirm product availability, manufacturing date, and batch validity directly with the dealer.
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Location & Category Search Controls Card -->
+                <div class="shops-search-card">
+
+                    <div style="display: flex; flex-direction: column; gap: 6px;">
+                        <label for="shopLocationInput" style="font-weight: 700; color: #1f2937; font-size: 0.95rem;" data-i18n="shops.location_label">
+                            1. Enter Your Location (City, Town, Village, or PIN Code):
+                        </label>
+                        <div class="location-input-group">
+                            <div class="location-input-wrapper">
+                                <span class="location-icon-adornment">📍</span>
+                                <input
+                                    type="text"
+                                    id="shopLocationInput"
+                                    class="shops-location-input"
+                                    placeholder="e.g., Pune, 411001, Karnal, Nashik, Patna..."
+                                    data-i18n-placeholder="shops.location_placeholder"
+                                    aria-label="Enter city, town, village or PIN code"
+                                />
+                            </div>
+                            <button
+                                type="button"
+                                id="detectLocationBtn"
+                                class="btn-detect-location"
+                                data-i18n="shops.detect_btn"
+                                title="Optional: Detect your general location using browser permission"
+                            >
+                                🎯 Use My Location (Optional)
+                            </button>
+                            <button
+                                type="button"
+                                id="clearLocationBtn"
+                                class="clear-search-btn"
+                                data-i18n="common.clear"
+                                style="display: none;"
+                            >
+                                Clear
+                            </button>
+                            <button
+                                type="button"
+                                id="findShopsBtn"
+                                class="btn-find-shops"
+                                data-i18n="shops.find_btn"
+                            >
+                                🔍 Find Nearby Shops
+                            </button>
+                        </div>
+                        <span id="geoStatusMessage" style="font-size: 0.82rem; color: #6b7280;"></span>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <span style="font-weight: 700; color: #1f2937; font-size: 0.95rem;">
+                            2. Select Supply Category:
+                        </span>
+                        <div class="shops-category-chips" id="shopCategoryChips">
+                            <button class="shop-chip active" data-category="all" type="button">
+                                🏪 All / General Input Stores
+                            </button>
+                            <button class="shop-chip" data-category="seeds" type="button">
+                                🌱 Seeds & Planting Material
+                            </button>
+                            <button class="shop-chip" data-category="fertilizers" type="button">
+                                🧪 Fertilizers & Nutrients
+                            </button>
+                            <button class="shop-chip" data-category="pesticides" type="button">
+                                🛡️ Pesticides & Crop Protection
+                            </button>
+                            <button class="shop-chip" data-category="equipment" type="button">
+                                🚜 Equipment & Farm Tools
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Initial Prompt / Guide State -->
+                <div class="shops-empty-prompt" id="shopsPromptState">
+                    <div class="prompt-icon">🌾</div>
+                    <h3>Find Verified Agricultural Input Dealers</h3>
+                    <p>
+                        Type your city, town, village name, or postal PIN code above and click
+                        <strong>"Find Nearby Shops"</strong> to launch verified map directions for certified seeds, fertilizers,
+                        approved crop protection products, and farm equipment.
+                    </p>
+                </div>
+
+
+                <!-- Active Results Area (Populated upon search) -->
+                <div class="shops-results-card hidden" id="shopsResultsArea">
+
+                    <div class="results-header-row">
+                        <div class="current-search-meta">
+                            <h3>
+                                <span>📍</span>
+                                <span>Agricultural Supply Options for: <span id="displayLocationText" class="location-highlight">—</span></span>
+                            </h3>
+                            <div style="display: flex; align-items: center; gap: 8px; margin-top: 4px;">
+                                <span class="search-category-badge" id="displayCategoryBadge">General Agricultural Input Shops</span>
+                                <span style="font-size: 0.82rem; color: #6b7280;">• Powered by Google Maps & OpenStreetMap</span>
+                            </div>
+                        </div>
+
+                        <div class="map-actions-group">
+                            <a
+                                href="#"
+                                id="btnPrimaryGoogleMaps"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn-map-primary"
+                            >
+                                🗺️ Open in Google Maps ↗
+                            </a>
+                            <a
+                                href="#"
+                                id="btnSecondaryOsm"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn-map-secondary"
+                            >
+                                🧭 Open in OpenStreetMap ↗
+                            </a>
+                            <a
+                                href="#"
+                                id="btnDirectionsMaps"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn-map-secondary"
+                            >
+                                🚗 Get Directions ↗
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Supply Category Guidance Cards -->
+                    <div>
+                        <h4 style="font-size: 1.05rem; font-weight: 700; color: #166534; margin-bottom: 14px;">
+                            🌾 Supply Categories in Your Area
+                        </h4>
+                        <div class="supply-guide-grid" id="supplyGuideGrid">
+                            <!-- Populated dynamically by script.js -->
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Farmer Buyer Protection & Safe Sourcing Tips -->
+                <div class="farmer-tips-card">
+                    <div class="farmer-tips-title">
+                        <span>💡</span>
+                        <span>Farmer Advisory: What to Check Before Purchasing Farm Inputs</span>
+                    </div>
+
+                    <div class="tips-grid">
+                        <div class="tip-item">
+                            <strong>1. Insist on a Printed Cash Memo</strong>
+                            Always demand an official GST bill or cash memo mentioning the product trade name, manufacturer, batch number, and expiry date. This is mandatory for claiming warranty or government crop relief.
+                        </div>
+
+                        <div class="tip-item">
+                            <strong>2. Check Certified Seed Tags</strong>
+                            Verify the official National / State Seeds Corporation tag. Certified seeds carry a blue certification tag; foundation seeds carry a white tag. Never purchase loose or unlabelled seeds.
+                        </div>
+
+                        <div class="tip-item">
+                            <strong>3. CIB&RC Registration for Chemicals</strong>
+                            Check for the Central Insecticides Board (CIB&RC) registration number and toxicity diamond (green, blue, yellow, or red triangle) on pesticide containers. Do not buy damaged or unsealed bottles.
+                        </div>
+
+                        <div class="tip-item">
+                            <strong>4. Carry Your Soil Health Card</strong>
+                            Consult your Soil Health Card recommendations before purchasing chemical fertilizers (Urea, DAP, MOP) to avoid excessive input expenditure and preserve long-term soil fertility.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🌱 <span>CropCure AI</span>
+            </div>
+
+            <p data-i18n="common.footer_desc">
+                AI-powered crop disease diagnosis and agricultural assistance for Indian farmers.
+            </p>
+
+            <div class="footer-links" aria-label="Footer Navigation">
+                <a href="index.html#home" data-i18n="nav.home">Home</a>
+                <span class="footer-dot">·</span>
+                <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Farmer Diagnosis</a>
+                <span class="footer-dot">·</span>
+                <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+                <span class="footer-dot">·</span>
+                <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+                <span class="footer-dot">·</span>
+                <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+                <span class="footer-dot">·</span>
+                <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            </div>
+
+            <p class="copyright">
+                <span data-i18n="common.copyright">© 2026 CropCure AI. Academic Project.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

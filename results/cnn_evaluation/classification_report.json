@@ -1,0 +1,117 @@
+{
+    "Apple_Healthy": {
+        "precision": 0.6,
+        "recall": 0.428571,
+        "f1-score": 0.5,
+        "support": 7
+    },
+    "Apple_Rust": {
+        "precision": 0.214286,
+        "recall": 0.714286,
+        "f1-score": 0.32967,
+        "support": 21
+    },
+    "Apple_Scab": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 19
+    },
+    "Corn_Gray_Leaf_Spot": {
+        "precision": 0.666667,
+        "recall": 0.315789,
+        "f1-score": 0.428571,
+        "support": 19
+    },
+    "Corn_Leaf_Blight": {
+        "precision": 0.333333,
+        "recall": 0.153846,
+        "f1-score": 0.210526,
+        "support": 13
+    },
+    "Corn_Leaf_Rust": {
+        "precision": 0.333333,
+        "recall": 0.5,
+        "f1-score": 0.4,
+        "support": 14
+    },
+    "Potato_Early_Blight": {
+        "precision": 0.868263,
+        "recall": 0.966667,
+        "f1-score": 0.914826,
+        "support": 150
+    },
+    "Potato_Healthy": {
+        "precision": 0.958333,
+        "recall": 0.958333,
+        "f1-score": 0.958333,
+        "support": 24
+    },
+    "Potato_Late_Blight": {
+        "precision": 0.910959,
+        "recall": 0.886667,
+        "f1-score": 0.898649,
+        "support": 150
+    },
+    "Potato_Leaf_Blight": {
+        "precision": 0.25,
+        "recall": 0.111111,
+        "f1-score": 0.153846,
+        "support": 9
+    },
+    "Potato_Leafroll_Virus": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8
+    },
+    "Tomato_Bacterial_Spot": {
+        "precision": 0.943925,
+        "recall": 0.918182,
+        "f1-score": 0.930876,
+        "support": 330
+    },
+    "Tomato_Early_Blight": {
+        "precision": 0.744048,
+        "recall": 0.766871,
+        "f1-score": 0.755287,
+        "support": 163
+    },
+    "Tomato_Healthy": {
+        "precision": 0.964,
+        "recall": 0.975709,
+        "f1-score": 0.969819,
+        "support": 247
+    },
+    "Tomato_Late_Blight": {
+        "precision": 0.903846,
+        "recall": 0.793919,
+        "f1-score": 0.845324,
+        "support": 296
+    },
+    "Tomato_Leaf_Mold": {
+        "precision": 0.852761,
+        "recall": 0.896774,
+        "f1-score": 0.874214,
+        "support": 155
+    },
+    "Tomato_Septoria_Leaf_Spot": {
+        "precision": 0.85,
+        "recall": 0.856115,
+        "f1-score": 0.853047,
+        "support": 278
+    },
+    "accuracy": 0.849185,
+    "macro avg": {
+        "precision": 0.611397,
+        "recall": 0.60252,
+        "f1-score": 0.589588,
+        "support": 1903
+    },
+    "weighted avg": {
+        "precision": 0.856227,
+        "recall": 0.849186,
+        "f1-score": 0.849196,
+        "support": 1903
+    }
+}

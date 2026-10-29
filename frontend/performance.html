@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropCure AI | Model Performance & Evaluation Metrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation Bar
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🌱 <span data-i18n="nav.brand">CropCure AI</span>
+        </div>
+
+        <nav>
+            <a href="index.html#home" data-i18n="nav.home">Home</a>
+            <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Diagnosis</a>
+            <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+            <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+            <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+            <a href="performance.html" class="active-nav" data-i18n="nav.performance">Model Performance</a>
+            <a href="index.html#chat" data-i18n="nav.chat">AI Assistant</a>
+            <a href="index.html#about" data-i18n="nav.about">About</a>
+        </nav>
+
+        <div class="lang-selector-wrapper">
+            <span class="globe-icon" aria-hidden="true">🌐</span>
+            <select id="languageSelector" class="language-dropdown" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="te">తెలుగు (Telugu)</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         Main Content - Technical Performance Page
+    ========================== -->
+
+    <main>
+
+        <section id="performance" class="performance-section">
+
+            <div class="section-heading">
+                <p class="section-label">OFFLINE BENCHMARK EVALUATION</p>
+                <h2>CNN Model Performance & Metrics</h2>
+                <p>
+                    Rigorous offline evaluation of the trained CropDiseaseCNN architecture
+                    across the held-out test split (1,903 images across 17 disease classes).
+                </p>
+            </div>
+
+            <div class="performance-container">
+
+                <!-- Technical Reviewer Notice -->
+                <div class="technical-audience-banner">
+                    <div class="banner-text">
+                        <span class="banner-icon">🔬</span>
+                        <div>
+                            <strong>Intended for Project Reviewers, Researchers & Technical Evaluators:</strong><br>
+                            This dedicated page provides detailed offline metrics, per-class sensitivity, sample counts, and confusion matrix analysis. For farmer crop health diagnosis and treatment advice, visit the main Diagnosis page.
+                        </div>
+                    </div>
+                    <a href="index.html#diagnosis" class="banner-link">← Return to Farmer Diagnosis</a>
+                </div>
+
+                <!-- Offline Evaluation Disclaimer -->
+                <div class="performance-disclaimer-card">
+                    <div class="disclaimer-icon">ℹ️</div>
+                    <div class="disclaimer-text">
+                        <strong>Offline Test-Set Evaluation Disclaimer:</strong>
+                        <p id="evaluationDisclaimer">
+                            These metrics reflect benchmark performance evaluated offline on the unified test dataset (1,903 images across 17 classes).
+                            While high test accuracy demonstrates strong generalized visual recognition across supported classes, offline metrics
+                            do not guarantee that an individual real-world prediction is correct, especially under varied field lighting, symptom overlap, or unsupported sample conditions.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div id="performanceLoading" class="performance-loading">
+                    <div class="spinner"></div>
+                    <p>Loading offline evaluation metrics from project artifacts...</p>
+                </div>
+
+                <!-- Error State -->
+                <div id="performanceError" class="performance-error hidden">
+                    <div class="error-icon">⚠️</div>
+                    <h3>Unable to Load Evaluation Artifacts</h3>
+                    <p id="performanceErrorMessage">Could not fetch evaluation data from the backend.</p>
+                    <button type="button" id="retryEvaluationBtn" class="secondary-button">Retry Loading</button>
+                </div>
+
+                <!-- Main Performance Content (populated by JS) -->
+                <div id="performanceContent" class="performance-content hidden">
+
+                    <!-- Metric Highlights Grid -->
+                    <div class="metrics-grid">
+                        <div class="metric-card metric-primary">
+                            <div class="metric-header">
+                                <span class="metric-title">Test Accuracy</span>
+                                <span class="metric-badge">Overall</span>
+                            </div>
+                            <div class="metric-value" id="overallAccuracyVal">—</div>
+                            <div class="metric-sub" id="overallAccuracyCount">— / — test images correct</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Top-3 Accuracy</span>
+                                <span class="metric-badge">Ranked</span>
+                            </div>
+                            <div class="metric-value" id="top3AccuracyVal">—</div>
+                            <div class="metric-sub">True class present in top 3 candidates</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Macro Precision</span>
+                                <span class="metric-badge badge-macro">Macro Avg</span>
+                            </div>
+                            <div class="metric-value" id="macroPrecisionVal">—</div>
+                            <div class="metric-sub">Unweighted average precision across 17 classes</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Macro Recall</span>
+                                <span class="metric-badge badge-macro">Macro Avg</span>
+                            </div>
+                            <div class="metric-value" id="macroRecallVal">—</div>
+                            <div class="metric-sub">Unweighted average sensitivity across 17 classes</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <div class="metric-header">
+                                <span class="metric-title">Macro F1-Score</span>
+                                <span class="metric-badge badge-macro">Macro Avg</span>
+                            </div>
+                            <div class="metric-value" id="macroF1Val">—</div>
+                            <div class="metric-sub">Harmonic mean of macro precision and recall</div>
+                        </div>
+                    </div>
+
+                    <!-- Macro vs. Weighted Comparison Card -->
+                    <div class="comparison-card">
+                        <div class="comparison-header">
+                            <div>
+                                <h3>Macro Average vs. Weighted Average Metrics</h3>
+                                <p class="comparison-subtitle">
+                                    Understanding the distinction between unweighted macro metrics and sample-weighted metrics.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comparison-body">
+                            <p class="comparison-explanation">
+                                <strong>Macro Average</strong> treats every disease class equally regardless of sample volume, highlighting performance on smaller web-sourced classes.
+                                <strong>Weighted Average</strong> weights each class's score by its test sample count, reflecting overall volume performance on high-prevalence agricultural classes.
+                            </p>
+                            <div class="table-responsive">
+                                <table class="comparison-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Metric Type</th>
+                                            <th>Precision</th>
+                                            <th>Recall</th>
+                                            <th>F1-Score</th>
+                                            <th>Weighting Strategy</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="comparisonTableBody">
+                                        <!-- Populated dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dataset & Evaluation Split Details -->
+                    <div class="dataset-split-card">
+                        <h3>Dataset & Evaluation Split Details</h3>
+                        <div class="split-details-grid" id="splitDetailsGrid">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Per-Class Metrics Section -->
+                    <div class="per-class-card">
+                        <div class="per-class-header">
+                            <div>
+                                <h3>Per-Class Detailed Performance (17 Classes)</h3>
+                                <p>Comprehensive breakdown of test images, correct/incorrect counts, precision, recall, and F1-score for each crop disease class.</p>
+                            </div>
+                            <div class="filter-box">
+                                <input type="text" id="classFilterInput" placeholder="Filter by crop or disease (e.g., Tomato, Potato)...">
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="per-class-table" id="perClassTable">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Class Name</th>
+                                        <th>Crop</th>
+                                        <th>Support (Images)</th>
+                                        <th>Correct (TP)</th>
+                                        <th>Incorrect (FN)</th>
+                                        <th>Precision</th>
+                                        <th>Recall</th>
+                                        <th>F1-Score</th>
+                                        <th>Accuracy</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="perClassTableBody">
+                                    <!-- Populated dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Confusion Matrix Section -->
+                    <div class="confusion-matrix-card">
+                        <div class="matrix-header">
+                            <div>
+                                <h3>Confusion Matrix (17 × 17)</h3>
+                                <p>Rows represent ground-truth labels; columns represent model predictions. Diagonal entries indicate correct classifications.</p>
+                            </div>
+                            <div class="matrix-controls">
+                                <button type="button" id="toggleMatrixViewBtn" class="secondary-button">
+                                    🖼️ View High-Res Chart
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Matrix Table -->
+                        <div id="interactiveMatrixContainer" class="table-responsive matrix-table-container">
+                            <table class="confusion-matrix-table" id="confusionMatrixTable">
+                                <!-- Populated dynamically -->
+                            </table>
+                        </div>
+
+                        <!-- Static Chart Plot (toggleable) -->
+                        <div id="staticMatrixContainer" class="static-matrix-container hidden">
+                            <img id="confusionMatrixImg" src="http://127.0.0.1:5000/evaluation/confusion-matrix-image" alt="Confusion Matrix Heatmap Chart" loading="lazy">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🌱 <span>CropCure AI</span>
+            </div>
+
+            <p>
+                Academic Research & Machine Learning Model Evaluation Report.
+            </p>
+
+            <div class="footer-links" aria-label="Footer Navigation">
+                <a href="index.html#home" data-i18n="nav.home">Home</a>
+                <span class="footer-dot">·</span>
+                <a href="index.html#diagnosis" data-i18n="nav.diagnosis">Farmer Diagnosis</a>
+                <span class="footer-dot">·</span>
+                <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+                <span class="footer-dot">·</span>
+                <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+                <span class="footer-dot">·</span>
+                <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+                <span class="footer-dot">·</span>
+                <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            </div>
+
+            <p class="copyright">
+                <span data-i18n="common.copyright">© 2026 CropCure AI. Academic Project.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

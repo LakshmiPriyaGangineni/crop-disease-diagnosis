@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CropCure AI | Crop Disease Diagnosis</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         Navigation Bar
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🌱 <span data-i18n="nav.brand">CropCure AI</span>
+        </div>
+
+        <nav>
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#diagnosis" data-i18n="nav.diagnosis">Diagnosis</a>
+            <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+            <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+            <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+            <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            <a href="#chat" data-i18n="nav.chat">AI Assistant</a>
+            <a href="#about" data-i18n="nav.about">About</a>
+        </nav>
+
+        <div class="lang-selector-wrapper">
+            <span class="globe-icon" aria-hidden="true">🌐</span>
+            <select id="languageSelector" class="language-dropdown" aria-label="Select Language">
+                <option value="en">English</option>
+                <option value="te">తెలుగు (Telugu)</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         Hero Section
+    ========================== -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="badge" data-i18n="common.tagline">AI-POWERED CROP HEALTH</p>
+
+                <h1>
+                    <span data-i18n="hero.title_prefix">Smart Crop Disease</span>
+                    <span data-i18n="hero.title_highlight">Diagnosis</span>
+                </h1>
+
+                <p class="hero-description" data-i18n="hero.description">
+                    Upload a crop leaf image and let CropCure AI
+                    analyze it using deep learning and provide
+                    treatment and prevention guidance.
+                </p>
+
+                <a href="#diagnosis" class="primary-button" data-i18n="hero.start_button">
+                    Start Diagnosis
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Diagnosis Section
+        ========================== -->
+
+        <section id="diagnosis" class="diagnosis-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">DISEASE DETECTION</p>
+
+                <h2>Analyze Your Crop</h2>
+
+                <p>
+                    Upload a clear image of a crop leaf to identify
+                    possible diseases.
+                </p>
+
+            </div>
+
+
+            <div class="diagnosis-container">
+
+                <!-- Upload Card -->
+
+                <div class="upload-card">
+
+                    <div class="upload-icon">
+                        📷
+                    </div>
+
+                    <h3 data-i18n="diagnosis.upload_title">Upload Leaf Image</h3>
+
+                    <p data-i18n="diagnosis.upload_desc">
+                        Select or drag and drop a crop leaf image
+                    </p>
+
+                    <input type="file" id="imageInput" accept="image/*" hidden>
+
+                    <button type="button" id="uploadButton" class="secondary-button" data-i18n="diagnosis.choose_image">
+                        Choose Image
+                    </button>
+
+                    <p class="file-info">
+                        Supported formats: JPG, JPEG, PNG
+                    </p>
+
+                    <div class="supported-crops-pills" aria-label="Supported crops">
+                        <span class="crop-pill" data-i18n="crops.Tomato">🍅 Tomato</span>
+                        <span class="crop-pill" data-i18n="crops.Potato">🥔 Potato</span>
+                        <span class="crop-pill" data-i18n="crops.Corn">🌽 Corn (Maize)</span>
+                        <span class="crop-pill" data-i18n="crops.Apple">🍎 Apple</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Image Preview -->
+
+                <div id="previewContainer" class="preview-card hidden">
+
+                    <h3>Image Preview</h3>
+
+                    <img id="imagePreview" src="" alt="Selected crop leaf">
+
+                    <button type="button" id="analyzeButton" class="primary-button" data-i18n="diagnosis.analyze_button">
+                        Analyze Disease
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 Diagnosis Result
+            ========================== -->
+
+            <div id="resultSection" class="result-section hidden">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        DIAGNOSIS RESULT
+                    </p>
+
+                    <h2>Crop Health Analysis</h2>
+
+                </div>
+
+
+                <!-- Uncertainty & Ambiguity Warning Banner -->
+                <div id="uncertaintyWarningContainer" class="uncertainty-warning-container hidden">
+                    <div class="warning-icon-box">⚠️</div>
+                    <div class="warning-text-box">
+                        <h4 id="warningTitle">Visual Diagnosis Warning</h4>
+                        <p id="warningMessage"></p>
+                    </div>
+                </div>
+
+
+                <div class="result-grid">
+
+                    <!-- Disease -->
+
+                    <div class="result-card">
+
+                        <div class="result-icon">
+                            🩺
+                        </div>
+
+                        <p class="result-title" id="diseaseCardTitle">
+                            Detected Disease
+                        </p>
+
+                        <h3 id="diseaseName">
+                            —
+                        </h3>
+
+                        <div id="diagnosisBadge" class="diagnosis-badge hidden"></div>
+
+                    </div>
+
+
+                    <!-- Confidence -->
+
+                    <div class="result-card">
+
+                        <div class="result-icon">
+                            🎯
+                        </div>
+
+                        <p class="result-title">
+                            Confidence
+                        </p>
+
+                        <h3 id="confidence">
+                            —
+                        </h3>
+
+                        <div id="confidenceBadge" class="confidence-badge hidden"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Top 3 Candidates (visual breakdown for uncertain / low confidence diagnosis) -->
+                <div id="top3Container" class="top3-card hidden">
+                    <div class="top3-header">
+                        <span class="top3-icon">🔬</span>
+                        <div>
+                            <h3 id="top3Title">Candidate Predictions</h3>
+                            <p id="top3Subtitle" class="top3-subtitle">Top visual matches from the deep learning model</p>
+                        </div>
+                    </div>
+                    <div id="top3List" class="top3-list"></div>
+                </div>
+
+
+                <!-- Disease Information Cards -->
+
+                <div class="information-grid">
+
+                    <div class="information-card">
+
+                        <h3>🔍 Symptoms</h3>
+
+                        <div id="symptoms" class="info-content">
+                            Disease symptoms will appear here
+                            after diagnosis.
+                        </div>
+
+                    </div>
+
+
+                    <div class="information-card">
+
+                        <h3>💊 Treatment</h3>
+
+                        <div id="treatment" class="info-content">
+                            Treatment recommendations will appear
+                            here after diagnosis.
+                        </div>
+
+                    </div>
+
+
+                    <div class="information-card">
+
+                        <h3>🛡️ Prevention</h3>
+
+                        <div id="prevention" class="info-content">
+                            Prevention recommendations will appear
+                            here after diagnosis.
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Grounded AI Health Advisory (Full RAG + Groq LLM Response) -->
+                <div id="groundedAdviceSection" class="grounded-advice-card">
+                    <div class="grounded-header">
+                        <span class="grounded-icon">🌿</span>
+                        <div class="grounded-header-text">
+                            <h3>AI Agricultural Guidance</h3>
+                            <p class="grounded-subtitle">Knowledge retrieved from crop database &amp; grounded by Groq LLM</p>
+                        </div>
+                        <div id="ragStatusBadge" class="rag-status-badge">RAG Grounded</div>
+                    </div>
+
+                    <div id="groundedContent" class="grounded-content">
+                        <!-- Populated by JavaScript -->
+                    </div>
+
+                    <!-- Interactive Question Bar for this diagnosed image -->
+                    <div class="diagnosis-question-box">
+                        <label for="diagnosisQuestionInput" data-i18n="cards.ask_title">Ask follow-up question for this diagnosis:</label>
+                        <div class="diagnosis-question-input-group">
+                            <input type="text" id="diagnosisQuestionInput" placeholder="e.g. Can this disease spread to other crops? How often should I spray?" data-i18n-placeholder="cards.ask_placeholder">
+                            <button type="button" id="diagnosisAskButton" class="primary-button" data-i18n="cards.ask_button">Ask CropCure</button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!-- =========================
+             AI Assistant
+        ========================== -->
+
+        <section id="chat" class="chat-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    AI AGRICULTURAL ASSISTANT
+                </p>
+
+                <h2>Ask CropCure AI</h2>
+
+                <p>
+                    Ask questions about crop diseases, treatment,
+                    prevention, and agricultural care.
+                </p>
+
+            </div>
+
+
+            <div class="chat-container">
+
+                <div id="chatMessages" class="chat-messages">
+
+                    <div class="chat-message ai-message">
+
+                        <div class="message-avatar">
+                            🌱
+                        </div>
+
+                        <div class="message-content">
+
+                            <strong>CropCure AI</strong>
+
+                            <p>
+                                Hello! Upload a crop image or ask me
+                                a question about crop diseases.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="chat-input-area">
+
+                    <input type="text" id="chatInput" placeholder="Ask about crop diseases..." data-i18n-placeholder="chat.placeholder">
+
+                    <button type="button" id="sendButton" class="primary-button" data-i18n="chat.send_button">
+                        Send
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             About Section
+        ========================== -->
+
+        <section id="about" class="about-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    ABOUT THE PROJECT
+                </p>
+
+                <h2>How CropCure AI Works</h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🖼️
+                    </div>
+
+                    <h3>1. Upload Image</h3>
+
+                    <p>
+                        Upload an image of a crop leaf for analysis.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        🧠
+                    </div>
+
+                    <h3>2. CNN Diagnosis</h3>
+
+                    <p>
+                        A deep learning model analyzes the image
+                        and predicts the disease class.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        📚
+                    </div>
+
+                    <h3>3. Knowledge Retrieval</h3>
+
+                    <p>
+                        Relevant agricultural information is
+                        retrieved from the knowledge base.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        💬
+                    </div>
+
+                    <h3>4. AI Guidance</h3>
+
+                    <p>
+                        The system provides understandable
+                        treatment and prevention guidance.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                🌱 <span>CropCure AI</span>
+            </div>
+
+            <p data-i18n="common.footer_desc">
+                AI-powered crop disease diagnosis and agricultural assistance for Indian farmers.
+            </p>
+
+            <div class="footer-links" aria-label="Footer Navigation">
+                <a href="#home" data-i18n="nav.home">Home</a>
+                <span class="footer-dot">·</span>
+                <a href="#diagnosis" data-i18n="nav.diagnosis">Farmer Diagnosis</a>
+                <span class="footer-dot">·</span>
+                <a href="schemes.html" data-i18n="nav.schemes">Government Schemes</a>
+                <span class="footer-dot">·</span>
+                <a href="shops.html" data-i18n="nav.shops">Nearby Shops</a>
+                <span class="footer-dot">·</span>
+                <a href="experts.html" data-i18n="nav.experts">Agriculture Experts</a>
+                <span class="footer-dot">·</span>
+                <a href="performance.html" data-i18n="nav.performance">Model Performance</a>
+            </div>
+
+            <p class="copyright">
+                <span data-i18n="common.copyright">© 2026 CropCure AI. Academic Project.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Redirect hash navigation #performance, #schemes, #shops, #experts to dedicated pages
+        if (window.location.hash === "#performance") {
+            window.location.href = "performance.html";
+        }
+        if (window.location.hash === "#schemes") {
+            window.location.href = "schemes.html";
+        }
+        if (window.location.hash === "#shops") {
+            window.location.href = "shops.html";
+        }
+        if (window.location.hash === "#experts") {
+            window.location.href = "experts.html";
+        }
+        window.addEventListener("hashchange", () => {
+            if (window.location.hash === "#performance") {
+                window.location.href = "performance.html";
+            }
+            if (window.location.hash === "#schemes") {
+                window.location.href = "schemes.html";
+            }
+            if (window.location.hash === "#shops") {
+                window.location.href = "shops.html";
+            }
+            if (window.location.hash === "#experts") {
+                window.location.href = "experts.html";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
