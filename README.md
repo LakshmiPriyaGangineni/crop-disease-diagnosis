@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CropCure AI: CNN-Based Crop Disease Diagnosis with Retrieval-Driven LLM Support
 
 CropCure AI is an academic final-year B.Tech AIML major project designed to assist Indian farmers with leaf-level crop disease diagnosis and agronomically grounded guidance. The system integrates a PyTorch Convolutional Neural Network (CNN) for visual disease identification, a Retrieval-Augmented Generation (RAG) pipeline for domain-verified agricultural knowledge, and a multilingual interface supporting **English**, **Telugu (తెలుగు)**, and **Hindi (हिन्दी)**.
@@ -190,3 +191,7 @@ The structured domain knowledge bases (`rag/crop_data.json` and `rag/government_
 
 ## Academic Disclaimer
 This project was developed as a final-year B.Tech Major Project in Artificial Intelligence & Machine Learning (AIML). It is intended for educational, research, and advisory support purposes.
+=======
+# crop-disease-diagnosis
+CNN-Based Crop Disease Diagnosis with Retrieval-Driven LLM Support
+>>>>>>> origin/main
